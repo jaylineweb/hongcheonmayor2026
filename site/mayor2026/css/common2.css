@@ -86,7 +86,7 @@ html:not(.lnb_open) #sub .sitemap{background-position-x:0%;}
     .lnb .menu.pulldown .depth1{width:1500px;margin:0 auto;}
     .lnb .menu.pulldown .depth1_list{position:static;width: auto;padding-right:62px;}
     .lnb .menu.pulldown .depth1_list .depth1_item{position:relative;width: auto;margin-left:0;}
-    .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text{width:100%;padding:35px 37px 15px;font-family: 'Pretendard';line-height:24px;text-align:center;letter-spacing:0.1px;}
+    .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text{width:100%;padding: 35px 35px 15px;font-family: 'Pretendard';line-height:24px;text-align:center;letter-spacing:0.1px;}
     .sub .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text,
     #sub .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text{color:#ffffff;}
     .lnb_open .lnb .menu.pulldown .depth1_list .depth1_item.active .depth1_text{color:#d13f4e;font-weight:600;}
