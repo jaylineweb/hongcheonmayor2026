@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+
+/* (주)한신정보기술 안병민 - 2022.12 */
+
+/* 1_3 역대군수 */
+
+.cts3_wrap .wrap .mayor_tab_wrap{width:100%;margin-bottom:70px;}
+.cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner{border:1px solid #d9afb6;border-radius:10px;box-sizing:border-box;box-shadow:0px 10px 13px rgba(255,0,0,0.05);text-align:center;}
+.cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list{display:inline-block;width:100%;font-size:0px;}
+.cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item{display:inline-block;position:relative;max-height:52px;margin-left:160px;padding:10px 0px;box-sizing:border-box;text-align:center;}
+.cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item:first-child{margin-left:0px;}
+.cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item.active:after{display:inline-block;position:absolute;bottom:0px;left:50%;width:100%;height:4px;background-color:#d92e44;transform:translateX(-50%);content:'';}
+.cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item .mayor_tab_link{min-width:71px;font-size:18px;color:#6d6b6b;letter-spacing:-0.02em;line-height:36px;font-weight:200;font-family:'Score';}
+.cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item.active .mayor_tab_link{color:#d92e44;font-weight:600;}
+
+.cts3_wrap .wrap .mayor_contents_wrap{display:none;width:100%;padding:96px 57px;background-color:#fafafa;}
+.cts3_wrap .wrap .mayor_contents_wrap.active{display:block;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list{margin-top:60px;font-size:0px;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list:first-child{margin-top:0px;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item{display:inline-block;position:relative;width:252px;margin-left:39px;padding:0px 27px 28px;background-color:#fff;border-radius:10px;box-shadow:18px 30px 32px rgba(0,0,0,0.08);}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item:first-child{margin-left:0px;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_number{position:absolute;top:-25px;right:0px;max-width:104px;padding:10px 22px;background:linear-gradient(-45deg,#9b0c1a,#ee3f55);border-radius:30px 30px 0px 30px;font-size:20px;color:#fff;line-height:32px;letter-spacing:-0.03em;font-weight:400;white-space:nowrap;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name{width:100%;padding:42px 0px 15px;border-bottom:1px solid rgba(203,58,79,0.2);}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name p{font-size:24px;color:#000;letter-spacing:-0.03em;line-height:33px;font-weight:400;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name span{margin-left:7px;font-weight:700;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info{padding-top:20px;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text p{position:relative;padding-left:29px;font-size:17px;color:#666;letter-spacing:-0.03em;line-height:32px;font-weight:300;}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text p:before{display:block;position:absolute;top:12px;left:0px;width:21px;height:11px;background-image:url("../images/contents/cts3_mayor_list_img1.png");background-position:center;background-repeat:no-repeat;background-size:cover;content:'';}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text span{color:#a82b3b;font-weight:500;}
+
+/* 240329 */
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_photo {padding:20px; border-bottom:1px solid rgba(203, 58, 79, 0.2);}
+.cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_photo img {display:block; width:100%; height:210px; border-radius:10px; box-shadow:#ebebeb 5px 5px 0; overflow:hidden;}
+
+/* 1_5 군수와의 대화방 */
+
+.cts5_wrap .wrap .community_box{overflow:hidden;width:100%;background-color:#d9afb6;text-align:center;}
+.cts5_wrap .wrap .community_box .community_background{width:100%;padding:88px 66px 106px 79px;background:linear-gradient(108deg,#d19d60 0%,#c02f42 40%,#317ac4 67%,#248a10 96%);background-size:160%;background-position:55%;opacity:0.83;}
+.cts5_wrap .wrap .community_box .community_background .community_mark{position:absolute;background-position:center;background-repeat:no-repeat;background-size:cover;opacity:0.25;}
+.cts5_wrap .wrap .community_box .community_background .top_mark{top:-15px;left:82px;width:265px;height:178px;background-image:url("../images/contents/cts5_wrap_mark_img1.png");}
+.cts5_wrap .wrap .community_box .community_background .bot_mark{bottom:-37px;right:37px;width:193px;height:135px;background-image:url("../images/contents/cts5_wrap_mark_img2.png");}
+.cts5_wrap .wrap .community_box .community_background .community_title{display:inline-block;}
+.cts5_wrap .wrap .community_box .community_background .community_title .community_title_hello{margin-bottom:24px;font-size:35px;color:#fff;letter-spacing:-0.02em;line-height:49px;font-weight:200;}
+.cts5_wrap .wrap .community_box .community_background .community_title .community_title_bold{display:inline-block;font-size:40px;color:#fff;letter-spacing:-0.02em;line-height:39px;font-weight:700;text-shadow:3px 4px 5px rgba(0,0,0,0.11);}
+.cts5_wrap .wrap .community_box .community_background .community_title .community_title_name{display:inline-block;width:141px;height:63px;font-size:0px;}
+.cts5_wrap .wrap .community_box .community_background .community_title .community_title_name span{display:inline-block;font-size:50px;color:#fff;letter-spacing:-0.02em;font-weight:700;text-shadow:3px 4px 5px rgba(0,0,0,0.11);}
+.cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_shin,
+.cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_jae{transform:translateY(-6px);}
+.cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_yeong{transform:translateY(-2px);}
+
+.cts5_wrap .wrap .community_box .community_background .community_text_box{position:relative;margin-top:42px;padding:56px 0px 44px 60px;border-radius:54px 54px 0px 0px;background-color:#fff;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_deco_img{position:absolute;background-position:center;background-repeat:no-repeat;background-size:cover;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_deco_img1{top:-176px;right:32px;width:179px;height:214px;background-image:url("../images/contents/cts5_wrap_deco_img1.png");}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_deco_img2{bottom:-66px;left:29px;width:134px;height:156px;background-image:url("../images/contents/cts5_wrap_deco_img2.png");}
+.cts5_wrap .wrap .community_box .community_background .community_text_box p{float:left;font-size:18px;color:#000;letter-spacing:-0.02em;line-height:31px;font-weight:200;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box p span{display:inline-block;position:relative;z-index:1;font-weight:500;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box p span:before{display:inline-block;position:absolute;bottom:2px;left:0px;z-index:-1;width:100%;height:10px;background-color:#f9d1d2;content:'';}
+.cts5_wrap .wrap .community_box .community_background .community_text_box p .media_1240_on,
+.cts5_wrap .wrap .community_box .community_background .community_text_box p .media_1000_on{display:none;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box{display:inline-block;margin:48px 75px 0px 0px;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border{display:inline-block;width:145px;height:50px;padding:1px;border-radius:5px;background:linear-gradient(-60deg,#248a10,11%,#317ac4,46%,#c02f42,88%,#d19d60);}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border:hover{background:#c74c5e;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border:hover .community_btn{background-color:#c74c5e;color:#fff;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border .community_btn{width:100%;height:100%;border-radius:4px;background-color:#fff;font-size:17px;color:#000;letter-spacing:-0.035em;line-height:34px;font-weight:300;padding-top: 6px;}
+.cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border:last-child{margin-left:35px;}
+
+/* (1001~1240) */
+
+@media screen and (max-width:1240px){
+
+    /* 1_3 역대군수 */
+
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item{margin-left:117px;}
+
+    .cts3_wrap .wrap .mayor_contents_wrap{padding:90px 40px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list{margin-top:75px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item{width:22.5%;margin-left:3.33%;box-shadow: 12px 18px 24px rgb(0 0 0/6%);}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_number{padding:8px 18px;font-size:18px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name{padding:30px 0px 15px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name p{font-size:22px;line-height:28px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info{padding-top:10px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text p{padding-left:0px;font-size:15px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text p:before{display:none;}
+
+    /* 1_5 군수와의 대화방 */
+
+    .cts5_wrap .wrap .community_box .community_background{padding:70px 66px 106px 79px;}
+    .cts5_wrap .wrap .community_box .community_background .top_mark{top:-15px;left:82px;width:210px;height:140px;background-image:url("../images/contents/cts5_wrap_mark_img1.png");}
+    .cts5_wrap .wrap .community_box .community_background .bot_mark{bottom:-35px;right:40px;width:165px;height:113px;background-image:url("../images/contents/cts5_wrap_mark_img2.png");}
+
+    .cts5_wrap .wrap .community_box .community_background .community_text_box{margin-top:35px;padding:56px 0px 44px 0px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box p{float:initial;font-size:18px;line-height:34px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box p .media_1240_on{display:inline-block;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_deco_img{position:absolute;background-position:center;background-repeat:no-repeat;background-size:cover;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_deco_img1{top:-140px;right:50px;width:132px;height:170px;background-image:url("../images/contents/cts5_wrap_deco_img1.png");}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_deco_img2{bottom:-66px;left:29px;width:120px;height:140px;background-image:url("../images/contents/cts5_wrap_deco_img2.png");}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box{margin:48px 0px 0px;}
+}
+
+/* (641~1000) */
+
+@media screen and (max-width:1000px){
+
+    /* 1_3 역대군수 */
+
+    .cts3_wrap .wrap .mayor_tab_wrap{margin-bottom:55px;}
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item{min-width:20%;margin-left:0px;padding:10px 0px;}
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item.active:after{max-width:63px;}
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item .mayor_tab_link{min-width:63px; font-size:16px;}
+
+    .cts3_wrap .wrap .mayor_contents_wrap{padding:75px 3%;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item{width:22.75%;margin-left:3%;padding:0px 2.27% 15px;box-shadow: 8px 12px 18px rgb(0 0 0/6%);}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_number{top:-20px;right:initial;left:20px;padding:3px 18px;font-size:14px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name{padding:22px 0px 10px;text-align:center;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name p{font-size:17px;line-height:24px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info{padding-top:10px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text{margin-top:10px;text-align:center;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text p{display:inline-block;line-height:22px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text span{width:100%;}
+
+    /* 1_5 군수와의 대화방 */
+
+    .cts5_wrap .wrap .community_box .community_background{padding:45px 40px 70px;}
+    .cts5_wrap .wrap .community_box .community_background .top_mark{top:-15px;left:82px;width:210px;height:140px;background-image:url("../images/contents/cts5_wrap_mark_img1.png");}
+    .cts5_wrap .wrap .community_box .community_background .bot_mark{bottom:-35px;right:40px;width:165px;height:113px;background-image:url("../images/contents/cts5_wrap_mark_img2.png");}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_hello{margin-bottom:14px;font-size:28px;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_bold{font-size:36px;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name span{font-size:46px;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_shin,
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_jae{transform:translateY(-4px);}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_yeong{transform: translateY(-1px);}
+
+    .cts5_wrap .wrap .community_box .community_background .community_text_box{margin-top:24px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box p{font-size:14px;line-height:28px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box p span:before{height:8px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box p .media_1000_on{display:inline-block;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_deco_img{display:none;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box{margin:30px 0px 0px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border{width:136px;height:45px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border .community_btn{font-size:15px;padding-top: 5px;}
+}
+
+/* (~640) */
+
+@media screen and (max-width:640px){
+
+    /* 1_3 역대군수 */
+
+    .cts3_wrap .wrap .mayor_tab_wrap{margin-bottom:30px;}
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list{padding:0px 3%;}
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item{padding:8px 0px;}
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item.active:after{max-width:52px;}
+    .cts3_wrap .wrap .mayor_tab_wrap .mayor_tab_inner .mayor_tab_list .mayor_tab_item .mayor_tab_link{font-size:13px;line-height:25px;}
+
+    .cts3_wrap .wrap .mayor_contents_wrap{padding:55px 3%;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list{margin-top:55px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item{width:47.5%;margin-left:0px;padding:0px 6% 15px;box-shadow: 4px 8px 16px rgb(0 0 0/6%);}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item:nth-child(2n){margin-left:5%;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item:nth-child(n+3){margin-top:55px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_number{top:-17px;left:50%;padding:0px 20px;border-radius:30px;font-size:11px;transform:translateX(-50%);}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_name p{font-size:15px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text{margin-top: 5px;}
+    .cts3_wrap .wrap .mayor_contents_wrap .mayor_contents_list .mayor_contents_item .mayor_contents_info .mayor_contents_text p{font-size:12px;line-height:18px;}
+
+    /* 1_5 군수와의 대화방 */
+
+    .cts5_wrap .wrap .community_box .community_background{padding: 45px 7% 50px;}
+    .cts5_wrap .wrap .community_box .community_background .community_mark{display:none;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_hello{margin-bottom:0px;font-size:24px;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_bold{font-size:27px;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name{width:auto;height:auto;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name span{font-size:32px;line-height:38px;}
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_shin,
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_yeong,
+    .cts5_wrap .wrap .community_box .community_background .community_title .community_title_name .community_title_jae{transform:translateY(0px);}
+
+    .cts5_wrap .wrap .community_box .community_background .community_text_box{padding:30px 14px 30px;border-radius:25px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box p{font-size:14px;line-height:28px;word-break:keep-all;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box p span:before{bottom:3px;height:6px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box{margin:20px 0px 0px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border{width:110px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border:last-child{margin-left:10px;}
+    .cts5_wrap .wrap .community_box .community_background .community_text_box .community_button_box .community_button_border .community_btn{font-size:14px;}
+}

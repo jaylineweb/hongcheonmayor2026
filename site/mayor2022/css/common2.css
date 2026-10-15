@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* (주)한신정보기술 김진솔 - 2022.11 */
+
+#wrapper{font-family:Score;}
+#header{background-color:transparent;}
+.gnb{background-color:transparent;letter-spacing:-0.01em;}
+.gnb:before{opacity:0.22;}
+.gnb .gnb_site .gnb_item{border-color:transparent;}
+.gnb .gnb_site .gnb_item:first-child{border-color:transparent;}
+.gnb .gnb_site .gnb_text{background-color:transparent;color:white;border-bottom-color:transparent;}
+.gnb .gnb_site .gnb_text:hover{background-color:rgba(255, 255, 255, 0.1);color:white;}
+.gnb .gnb_site .active .gnb_text{background-color:transparent;color:white;}
+.gnb .gnb_site .active .gnb_text:hover{background-color:rgba(255, 255, 255, 0.1);color:white;}
+.gnb .gnb_link .gnb_text.login{color:white;font-weight:100;}
+.header_box{letter-spacing:-0.01em;}
+.logo{position:absolute;top:31px;left:0;font-size:0;line-height:0;}
+.logo .logo_img{width:147px;height:50px;background:url("../images/common/logo_white.png") no-repeat center;color:transparent;font-size:0;vertical-align:top;}
+.logo .logo_text{margin-left:10px;padding-top:7px;color:white;font-size:24px;font-weight:600;line-height:24px;vertical-align:top;}
+.lnb .menu{background-color:transparent;}
+.menu.eachdown .depth1{margin:0 auto;}
+.sitemap{position:absolute;top:40px;right:0;left:auto;width:25px;height:17px;background:url("../images/common/sitemap.png") no-repeat;color:transparent;font-size:0;}
+@media (min-width:1001px) {
+    .menu_show, .menu_hide, .lnb_curtain{display:none;}
+    .lnb .menu .depth1_list{padding-right:62px;}
+    .lnb .menu .depth1_text{padding:38px 10px 41px;color:white;font-weight:500;}
+
+    /* lnb open */
+    .lnb_open #header{background-color:white;}
+    .lnb_open .gnb{background-color:white;}
+    .lnb_open .gnb:before{opacity:1;z-index:1;}
+    .lnb_open .gnb .gnb_site .gnb_item{border-color:#d7d7d7;}
+    .lnb_open .gnb .gnb_site .gnb_text{background-color:#f4f8fb;color:#7d7d7d;border-bottom-color:#d7d7d7;}
+    .lnb_open .gnb .gnb_site .active .gnb_text{background-color:#f4f8fb;color:#7d7d7d;border-bottom-color:transparent;}
+    .lnb_open .gnb .gnb_link .gnb_text.login{color:#7d7d7d;}
+    .lnb_open .logo .logo_img{background-image:url("../images/common/logo.png");}
+    .lnb_open .logo .logo_text{color:black;}
+    .lnb_open .lnb .menu{background-color:white;}
+    .lnb_open .lnb .menu .depth1_text{color:black;}
+    .lnb_open .sitemap{background-position-x:-25px;}
+}
+@media (min-width:1241px) {
+    .lnb .menu .depth1_text{padding:38px 20px 41px;}
+}
+@media (max-width:1000px) {
+    .gnb{background-color:#f4f8fb;}
+    .logo{left:3%;}
+    .lnb .menu_show .menu_btn{width:25px;height:17px;background:url("../images/common/sitemap.png") no-repeat;color:transparent;font-size:0;}
+}
+@media (max-width:640px) {
+    .logo{top:23px;}
+    .logo .logo_img{width:100px;height:34px;background-size:contain;}
+    .logo .logo_text{padding-top:0;font-size:17px;}
+}
+
+
+/* 상단 소스 common.css 에서 가져옴 */
+/* (주)한신정보기술 박남규 - 2023.03 */
+@media screen and (min-width:1001px){
+    .header_box .wrap{width:1500px;}
+    .lnb .menu.pulldown:after{border-color:#d7d7d7;}
+    .lnb .menu.pulldown .depth1{width:1500px;margin:0 auto;}
+    .lnb .menu.pulldown .depth1_list{position:static;min-width:955px;padding-right:52px;}
+    .lnb .menu.pulldown .depth1_list .depth1_item{position:relative;width:25%;margin-left:0;}
+    .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text{width:100%;padding:41px 3% 35px;line-height:24px;text-align:center;}
+    .lnb_open .lnb .menu.pulldown .depth1_list .depth1_item.active .depth1_text{color:#d13f4e;font-weight:600;}
+    .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text:after{display:inline-block;width:6px;height:6px;margin-top:-5px;margin-left:3px;border-radius:100%;background-color:#d13f4e;vertical-align:top;content:'';box-sizing:border-box;transform:scale(0);transition-property:transform;transition-duration:250ms;transition-timing-function:ease;}
+    .lnb .menu.pulldown .depth1_list .depth1_item.active .depth1_text:after{transform:scale(1);}
+    .lnb .menu.pulldown .depth1 .sitemap{top:44px;}
+    .lnb .menu.pulldown .depth2:before,
+    .lnb .menu.pulldown .depth2:after{display:block;position:absolute;top:0;width:1px;height:100%;background-color:transparent;content:'';box-sizing:border-box;transition-property:background-color;transition-duration:250ms;transition-timing-function:ease;}
+    .lnb .menu.pulldown .depth2:before{display:none;left:0;}
+    .lnb .menu.pulldown .depth1_item:first-child .depth2:before{display:block;}
+    .lnb .menu.pulldown .depth2:after{right:0;}
+    .lnb_open .lnb .menu.pulldown .depth2:before,
+    .lnb_open .lnb .menu.pulldown .depth2:after{background-color:#d7d7d7;}
+    .lnb_open .lnb .menu.pulldown .depth2{visibility:visible;opacity:1;}
+    .lnb .menu.pulldown .depth2 .depth2_content{position:static;}
+    .lnb .menu.pulldown .depth2 .depth2_content:before{display:block;position:absolute;top:0;left:0;z-index:1;width:100%;height:100%;margin-top:0px;background-color:transparent;content:'';box-sizing:border-box;transition-property:height, margin-top, background-color;transition-duration:250ms;transition-timing-function:ease;}
+    .lnb .menu.pulldown .depth1_item.active .depth2 .depth2_content:before{height:calc(100% + 15px);margin-top:-15px;background-color:#be2d3a;}
+    .lnb .menu.pulldown .depth2_title{display:none;}
+    .lnb .menu.pulldown .depth2_list{min-height:0;padding-top:38px;padding-bottom:18px;padding-left:0;}
+    .lnb .menu.pulldown .depth2_list .depth2_item{display:block;position:relative;width:100%;margin:0;}
+    .lnb .menu.pulldown .depth2_list .depth2_item .depth2_text{padding-top:18px;padding-right:25px;padding-bottom:0px;padding-left:25px;font-size:17px;line-height:25px;border:0;background-color:transparent;}
+    .lnb .menu.pulldown .depth1_item.active .depth2_list .depth2_item .depth2_text{color:#fff;}
+    .lnb .menu.pulldown .depth2_list .depth2_item .depth2_text:before,
+    .lnb .menu.pulldown .depth2_list .depth2_item .depth2_text:after{display:none;}
+    .lnb .menu.pulldown .depth3{display:none;}
+    .gnb .wrap{width:1500px;}
+    .gnb .gnb_site .gnb_list .gnb_item{background-color:transparent;border:0 !important;}
+    .lnb_open .gnb .gnb_site .gnb_list .gnb_item{}
+    .gnb .gnb_site .gnb_list .gnb_item .gnb_text{position:relative;padding-top:9px;padding-bottom:7px;line-height:24px;border:0 !important;}
+    .gnb .gnb_site .gnb_list .gnb_item .gnb_text:before,
+    .gnb .gnb_site .gnb_list .gnb_item .gnb_text:after{display:block;position:absolute;top:0;width:1px;height:100%;background-color:#d7d7d7;opacity:0.22;content:'';box-sizing:border-box;}
+    .lnb_open .gnb .gnb_site .gnb_list .gnb_item .gnb_text:before,
+    .lnb_open .gnb .gnb_site .gnb_list .gnb_item .gnb_text:after{opacity:1;}
+    .gnb .gnb_site .gnb_list .gnb_item .gnb_text:before{display:none;left:0;}
+    .gnb .gnb_site .gnb_list .gnb_item:first-child .gnb_text:before{display:block;left:0;}
+    .gnb .gnb_site .gnb_list .gnb_item .gnb_text:after{right:0;}
+    .lnb_open .gnb .gnb_site .gnb_list .gnb_item .gnb_text{background-color:#f4f8fb;}
+    .lnb_open .gnb .gnb_site .gnb_list .gnb_item.active .gnb_text{color:#006633;background-color:transparent;}
+    .gnb .gnb_link .gnb_list .gnb_item.welfare .welfare_open:before,
+    .gnb .gnb_link .gnb_list .gnb_item.family .family_open:before{display:none;}
+    .gnb .gnb_link .gnb_list .gnb_item.welfare .welfare_open:after,
+    .gnb .gnb_link .gnb_list .gnb_item.family .family_open:after{top:17px;right:13px;width:5px;height:7px;background-image:url("../images/common/gnb_link_new_icon.png");background-repeat:no-repeat;background-position:left top;}
+}
+@media screen and (min-width:1241px) and (max-width:1500px){
+    .header_box .wrap{width:1240px;}
+    .lnb .menu.pulldown .depth1{width:1240px;}
+    .lnb .menu.pulldown .depth1_list{min-width:875px;}
+    .gnb .wrap{width:1240px;}
+}
+@media screen and (min-width:1001px) and (max-width:1240px){
+    .header_box .wrap{width:94%;}
+    .lnb .menu.pulldown .depth1{width:94%;}
+    .lnb .menu.pulldown .depth1_list{min-width:64%;padding-right:30px;}
+    .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text{font-size:18px;}
+    .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text:after{position:absolute;top:35px;right:3px;margin-top:0;margin-left:0;}
+    .lnb .menu.pulldown .depth2_list .depth2_item .depth2_text{padding-right:10px;padding-left:10px;font-size:16px;}
+    .gnb .wrap{width:94%;}
+}
+@media screen and (max-width:1000px){
+    .lnb .menu.pulldown{background-image:url("../images/common/lnb_new_bg.jpg");}
+    .lnb .menu.pulldown .menu_title{background-image:linear-gradient(to right, #b32c37 0%,#cb5100 100%);}
+    .lnb .menu.pulldown .depth1_item{border-bottom:1px solid rgba(255, 255, 255, 0.2);}
+    .lnb .menu.pulldown .depth1_item .depth1_text{word-break:keep-all;}
+    .lnb .menu.pulldown .depth1_item.active .depth1_text{color:#c52847;}
+    .lnb .menu.pulldown .depth3{background-image:linear-gradient(135deg, #d19d60 0%,#c02f42 100%);}
+    .lnb .menu.pulldown .depth3 .depth3_list{background-color:#fbf7f4;}
+    .lnb .menu.pulldown .depth2_item.active .depth3_item:before{background-image:url("../images/common/gnb_link_new_icon.png");background-position:left -30px;}
+    .lnb .menu.pulldown .depth3_item.active .depth3_text{color:#b02c38;}
+    .lnb .menu.pulldown .menu_hide .menu_btn{background-image:url("../images/common/gnb_link_new_icon.png");background-position:-30px top;}
+}

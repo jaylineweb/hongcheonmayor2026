@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* (주)한신정보기술 안형주 - 2022.12 */
+
+/* 홍천군 >홍천군수 신영재 >인사말   */
+.cts1_wrap .content_box{position:relative;width:1240px;margin-right:auto;margin-left:auto;padding-bottom:146px;font-size:0;line-height:0;}
+/* main_text */
+.cts1_wrap .content_box .text_content_wrap .main_wrap{width:1240px;padding-top:102px;padding-bottom:150px;z-index:1;position:relative;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box{position:relative;width:700px;font-weight:500}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .top_text:before{display:block;position:absolute;top:-22px;left:-73px;width:120px;height:97px;background-image:url("../images/contents/cts1_wrap_headimg1.png");background-repeat:no-repeat;content:'';}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .top_text{padding-bottom:16px;color:#979595;font-size:17px;line-height:25px;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .mid_text{font-size:47px;font-weight:500;line-height:65px;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .min_side_text1{color:#cd3c51;font-weight:800;letter-spacing:-0.03em;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .min_side_text2{color:#7a0b0b;font-weight:800;letter-spacing:-0.03em;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .main_text{padding-top:44px;padding-bottom:26px;color:#666666;font-size:18px;font-weight:300;line-height:27px;word-break:keep-all;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .main_side_text{font-weight:500;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box p{margin-top:21px;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .bot_text{font-size:22px;line-height:27px;}
+.cts1_wrap .content_box .text_content_wrap .main_text_box .bot_text1{margin-left:16px;font-size:32px;font-weight:700;line-height:46px;}
+/* right이미지 */
+.cts1_wrap .content_box .right_img_box{display:inline-block;position:absolute;top:calc(50% - 400px);left:calc(50% + 160px);width:912px;}
+.cts1_wrap .content_box .right_img_box .right_img1:before{display:block;position:relative;width:912px;height:498px;margin-top:80px;background-image:url("../images/contents/cts1_wrap_back_img1.png");background-repeat:no-repeat;}
+.cts1_wrap .content_box .right_img_box .right_img2{position:absolute;bottom:0px;left:110px;box-sizing:border-box;}
+.cts1_wrap .content_box .right_img_box img{display:block;box-sizing:border-box;}
+/* left이미지 */
+.cts1_wrap .content_box .left_img_box{position:absolute;bottom:calc(50% - 620px);left:calc(50% - 50vw);box-sizing:border-box;}
+.cts1_wrap .content_box .left_img_box .left_img1{width:344px;height:237px;box-sizing:border-box;background-image:url("../images/contents/cts1_wrap_left_img1.png");background-repeat:no-repeat;}
+.cts1_wrap .content_box .left_img_box .left_img1:after{display:block;position:absolute;top:calc(50% - 195px);right:0;width:241px;height:245px;;background-image:url("../images/contents/cts1_wrap_left_img2.png");background-repeat:no-repeat;content:'';}
+@media screen and (min-width:1800px) {
+    .cts1_wrap .content_box .left_img_box{bottom:calc(50% - 520px);left:calc(50% - 53vw);}
+}
+@media screen and (max-width:1500px){
+    .cts1_wrap .content_box .text_content_wrap .main_text_box{width:500px;padding-left:30px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .top_text:before{left:-35px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .mid_text{font-size:42px;line-height:60px;}
+    .cts1_wrap .content_box .right_img_box{top:calc(50% - 280px);left:calc(50% + 30px);}
+    .cts1_wrap .content_box .right_img_box .right_img1:before{width:100%;height:396px;background-size:contain;}
+    .cts1_wrap .content_box .right_img_box .right_img2{left:90px;}
+    .cts1_wrap .content_box .right_img_box .right_img2 img{height:450px;}
+    .cts1_wrap .content_box .left_img_box{display:none;}
+    .cts1_wrap .content_box .text_content_wrap .main_wrap{padding-bottom:0px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box p br{display:none;}
+}
+@media screen and (max-width:1200px) {
+    .cts1_wrap .content_box .right_img_box{left:calc(50% - 80px);}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .top_text:before{top:-18px;left:-12px;width:100%;height:70px;background-size:contain;}
+}
+@media screen and (max-width:1000px) {
+    .cts1_wrap .content_box{width:100%;}
+    .cts1_wrap .content_box .text_content_wrap .main_wrap{width:100%;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box{width:100%;padding-left:20px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .mid_text{font-size:34px;line-height:44px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .top_text{position: relative;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .top_text:before{top:-18px;left:-42px;height:65px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .main_text{font-size:17px;padding-top:30px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .main_text p{margin-top:16px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .bot_text{font-size:20px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .bot_text1{font-size:26px}
+    .cts1_wrap .content_box .right_img_box{position:sticky;padding-left:90px;margin-right:-30px;}
+    .cts1_wrap .content_box .right_img_box .right_img2{left:180px;}
+}
+@media screen and (max-width:640px) {
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .mid_text{font-size:30px;line-height:40px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .top_text{font-size:15px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .main_text{font-size:15px;line-height:24px;padding-top:20px;padding-bottom:15px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .bot_text{font-size:18px;}
+    .cts1_wrap .content_box .text_content_wrap .main_text_box .bot_text1{font-size:22px;line-height:30px;margin-left:10px;}
+    .cts1_wrap .content_box .right_img_box .right_img2 img{height:330px;}
+    .cts1_wrap .content_box .right_img_box{padding-left:20px;margin-right:0px;}
+    .cts1_wrap .content_box .right_img_box .right_img2{left:90px;}
+    .cts1_wrap .content_box .right_img_box .right_img1:before{height:310px;margin-top:50px}
+/*     .cts1_wrap .content_box .right_img_box{margin-top:-40px;}
+    .cts1_wrap .content_box .right_img_box .right_img1:before{background-image:none;margin-top:0px;} */
+}
+
+/* 홍천군 >홍천군수 신영재 >인사말 (2026) */
+.cts2508_wrap{position:relative;z-index:0;font-size:0;line-height:0;}
+.cts2508_wrap .photo_box{position:absolute;top:51px;left:128px;z-index:1;width:560px;}
+.cts2508_wrap .photo_box:before{display:block;position:absolute;top:134px;left:-213px;z-index:-1;width:601px;height:601px;background:url("../images/contents/cts2508_gradientcircle.png") no-repeat center / contain;content:'';}
+.cts2508_wrap .photo_box img{display:block;width:100%;height:auto;}
+.cts2508_wrap .text_box{position:relative;padding-top:32px;padding-left:747px;}
+.cts2508_wrap .title_box{position:relative;}
+.cts2508_wrap .title_box:before{display:block;position:absolute;top:33px;left:353px;width:255px;height:235px;background-image:url("../images/contents/cts2508_gradientoverlay.png"), url("../images/contents/cts2508_gradientoverlay.png");background-repeat:no-repeat;background-position:0 1px, 13px 0;background-size:242px 234px;content:'';}
+.cts2508_wrap .title_box .eng{opacity:0.12;position:relative;color:#000;font-family:'Tangerine';font-size:57.5px;font-weight:600;line-height:57px;letter-spacing:-0.01em;white-space:nowrap;}
+.cts2508_wrap .title_box .title{position:relative;margin-top:26px;margin-left:2px;}
+.cts2508_wrap .title_box .title img{display:block;max-width:100%;height:auto;}
+.cts2508_wrap .text_content{position:relative;margin-top:89px;margin-left:2px;color:#333;font-family:'Pretendard';font-size:18px;font-weight:300;line-height:28px;letter-spacing:-0.016em;white-space:nowrap;}
+.cts2508_wrap .text_content:before{display:block;position:absolute;top:-41px;left:-255px;z-index:-1;width:2415px;height:592px;background:url("../images/contents/cts2508_bg.png") no-repeat left top;content:'';}
+.cts2508_wrap .text_content p + p{margin-top:28px;}
+.cts2508_wrap .text_content .first{letter-spacing:0;}
+.cts2508_wrap .text_content strong{font-weight:600;}
+.cts2508_wrap .text_content .sign{margin-top:39px;padding-left:1px;}
+.cts2508_wrap .text_content .sign img{display:block;max-width:100%;height:auto;}
+@media screen and (min-width:1501px) {
+    .cts2508_wrap{padding-bottom:150px;}
+}
+@media screen and (max-width:1500px) {
+    .cts2508_wrap .photo_box{left:21px;width:500px;}
+    .cts2508_wrap .text_box{padding-left:560px;}
+}
+@media screen and (max-width:1240px) {
+    .cts2508_wrap{min-height:0;padding-bottom:100px;}
+    .cts2508_wrap .photo_box{top:40px;left:0;width:400px;}
+    .cts2508_wrap .photo_box:before{top:96px;left:-152px;width:429px;height:429px;}
+    .cts2508_wrap .title_box .eng{font-size:48px;line-height:50px;}
+    .cts2508_wrap .title_box .title{margin-top:20px;}
+    .cts2508_wrap .text_content{margin-top:70px;font-size:17px;line-height:27px;white-space:normal;word-break:keep-all;}
+    .cts2508_wrap .text_content br{display:none;}
+    .cts2508_wrap .text_content strong{display:block;}
+}
+@media screen and (max-width:1200px){
+    .cts2508_wrap .text_box{padding-left:460px;}
+}
+@media screen and (max-width:1000px) {
+    .cts2508_wrap{padding-bottom:60px;}
+    .cts2508_wrap .photo_box{position:relative;top:0;right:0;bottom:0;left:0;width:60%;max-width:400px;margin:auto;}
+    .cts2508_wrap .photo_box:before{top:19.3%;left:-38%;width:107.3%;height:0;padding-top:107.3%;}
+    .cts2508_wrap .text_box{margin-left:0;padding-top:0;padding-right:15px;padding-left:15px;}
+    /* .cts2508_wrap .title_box:before{left:55%;} */
+    .cts2508_wrap .title_box:before{display:none;}
+    .cts2508_wrap .title_box .eng{font-size:40px;line-height:44px;}
+    .cts2508_wrap .title_box .title img{max-width:48%;}
+    .cts2508_wrap .text_content{margin-top:60px;margin-left:0;}
+    .cts2508_wrap .text_content:before{top:-40px;bottom:-40px;left:-43px;height:auto;background-size:auto 100%;}
+}
+@media screen and (max-width:640px) {
+    .cts2508_wrap .photo_box{width:75%;}
+    .cts2508_wrap .title_box .eng{font-size:34px;line-height:38px;}
+    .cts2508_wrap .title_box .title{margin-top:14px;}
+    .cts2508_wrap .title_box .title img{width:auto;max-width:85%;}
+    .cts2508_wrap .text_content{font-size:14px;line-height:1.5;}
+    .cts2508_wrap .text_content p + p{margin-top:20px;}
+    .cts2508_wrap .text_content .sign{max-width:50%;margin-top:28px;}
+}
+
+/* 홍천군 >홍천군수 신영재 >걸어온길 (2026) */
+.cts2509_wrap{position:relative;padding-bottom:80px;font-size:0;line-height:0;}
+.cts2509_wrap .photo_area{position:absolute;top:-19px;left:-120px;width:858px;}
+.cts2509_wrap .photo_area .photo{display:block;width:100%;height:auto;}
+.cts2509_wrap .photo_area .autograph{position:absolute;top:73.41%;left:65.15%;}
+.cts2509_wrap .photo_area .autograph img{display:block;margin-left:1px;}
+.cts2509_wrap .photo_area .autograph .birth{margin-top:6px;color:#333;font-family:'Pretendard';font-size:20px;font-weight:600;line-height:37px;letter-spacing:-0.03em;white-space:nowrap;}
+.cts2509_wrap .info_box{position:relative;margin-left:759px;padding-top:97px;}
+.cts2509_wrap .topbox{position:relative;max-width:475px;margin-left:1px;}
+.cts2509_wrap .topbox:before{display:block;position:absolute;top:-34px;left:275px;width:242px;height:234px;background:url("../images/contents/cts2509_gradientcircle.png") no-repeat center / contain;content:'';}
+.cts2509_wrap .topbox .title{position:relative;}
+.cts2509_wrap .topbox .title img{display:block;max-width:100%;height:auto;}
+.cts2509_wrap .year_list{margin-top:88px;}
+.cts2509_wrap .year_item{position:relative;padding:5px 0 0 176px;}
+.cts2509_wrap .year_item + .year_item{margin-top:76px;}
+.cts2509_wrap .year_item + .year_item:before{display:block;position:absolute;top:-40px;left:8px;width:calc(100% - 211px);height:1px;background-color:#dbdbdb;}
+.cts2509_wrap .year_item .label{position:absolute;top:0;left:0;padding:7px 0 0 61px;color:#000;font-family:'STUNNING';font-size:25px;font-weight:600;line-height:30px;letter-spacing:-0.02em;white-space:nowrap;}
+.cts2509_wrap .year_item .label:before{display:block;position:absolute;top:0;left:0;width:45px;height:45px;background:url("../images/contents/cts2509_icon_bg.svg") no-repeat center / 45px 45px;content:'';}
+.cts2509_wrap .year_item .label:after{display:block;position:absolute;top:8px;left:8px;width:28px;height:28px;color:#fff;font-family:'xeicon';font-size:28px;font-weight:normal;font-style:normal;line-height:28px;text-align:center;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.cts2509_wrap .year_item.education .label:after{content:'\eb64';}
+.cts2509_wrap .year_item.career .label:after{content:'\ea34';}
+.cts2509_wrap .year_item .textbox li{color:#333;font-family:'Pretendard';font-size:20px;font-weight:400;line-height:24px;letter-spacing:-0.02em;}
+.cts2509_wrap .year_item .textbox li + li{margin-top:16px;}
+@media screen and (max-width:1500px) {
+    .cts2509_wrap .photo_area{left:-110px;width:760px;}
+    .cts2509_wrap .year_item + .year_item:before{width:calc(100% - 8px);max-width:530px;}
+}
+@media screen and (max-width:1380px){
+    .cts2509_wrap .info_box{margin-left:700px;}
+}
+@media screen and (max-width:1240px) {
+    .cts2509_wrap{min-height:0;padding-bottom:80px;}
+    .cts2509_wrap .photo_area{top:0;left:-60px;width:560px;}
+    .cts2509_wrap .info_box{margin-left:520px;padding-top:60px;}
+    .cts2509_wrap .topbox:before{left:57.9%;}
+    .cts2509_wrap .year_list{margin-top:60px;}
+    .cts2509_wrap .year_item{padding-left:130px;}
+    .cts2509_wrap .year_item + .year_item{margin-top:50px;}
+    .cts2509_wrap .year_item + .year_item:before{top:-26px;}
+    .cts2509_wrap .year_item .textbox li{font-size:18px;word-break:keep-all;}
+    .cts2509_wrap .year_item .textbox li + li{margin-top:12px;}
+}
+@media screen and (max-width:1000px) {
+    .cts2509_wrap{padding-bottom:60px;}
+    .cts2509_wrap .photo_area{position:relative;top:auto;left:auto;width:90%;max-width:600px;margin:0 auto;}
+    .cts2509_wrap .info_box{margin-left:0;padding-top:40px;padding-right:15px;padding-left:15px;}
+}
+@media screen and (max-width:640px) {
+    .cts2509_wrap .photo_area .autograph img{width:70px;height:auto;}
+    .cts2509_wrap .photo_area .autograph .birth{margin-top:2px;font-size:14px;line-height:20px;}
+    .cts2509_wrap .year_list{margin-top:40px;}
+    .cts2509_wrap .year_item{padding:60px 0 0;}
+    .cts2509_wrap .year_item + .year_item{margin-top:36px;}
+    .cts2509_wrap .year_item + .year_item:before{top:-19px;}
+    .cts2509_wrap .year_item .label{font-size:22px;}
+    .cts2509_wrap .year_item .textbox li{font-size:16px;line-height:22px;}
+    .cts2509_wrap .year_item .textbox li + li{margin-top:10px;}
+}
+
+/* 홍천군 >홍천군수 신영재 >군정구호 (2026) */
+.cts2510_wrap{padding-top:20px;font-size:0;line-height:0;}
+.cts2510_wrap .chant_item{max-width:850px;margin:0 auto;text-align:center;}
+.cts2510_wrap .chant_item + .chant_item{margin-top:108px;}
+.cts2510_wrap .label{display:inline-block;position:relative;z-index:0;width:200px;padding:12px 0;color:#fff;font-family:'Pretendard';font-size:30px;font-weight:600;line-height:36px;letter-spacing:-0.02em;vertical-align:top;}
+.cts2510_wrap .label:before{display:block;position:absolute;top:0;left:0;z-index:-1;width:100%;height:100%;background:url("../images/contents/cts2510_label_bg.svg") no-repeat center / 100% 100%;content:'';}
+.cts2510_wrap .imagebox{position:relative;z-index:0;height:0;margin-top:31px;padding-top:18.118%;}
+.cts2510_wrap .imagebox:before{display:block;position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1;border-radius:77px;background-color:#fff;box-shadow:0px 5px 98px 0px rgba(0, 0, 0, 0.13);content:'';}
+.cts2510_wrap .imagebox img{position:absolute;height:auto;}
+.cts2510_wrap .chant .imagebox img{top:27.27%;left:10.59%;width:78.82%;}
+.cts2510_wrap .vision .imagebox img{top:20.78%;left:12.71%;width:74.71%;}
+.cts2510_wrap .goal_img{margin-top:29px;}
+.cts2510_wrap .goal_img img{display:block;width:88%;max-width:748px;height:auto;margin:0 auto;}
+@media screen and (max-width:1000px) {
+    .cts2510_wrap .chant_item + .chant_item{margin-top:80px;}
+    .cts2510_wrap .label{width:160px;padding:9px 0;font-size:24px;line-height:30px;}
+    .cts2510_wrap .imagebox{margin-top:26px;}
+    .cts2510_wrap .goal_img{margin-top:24px;}
+}
+@media screen and (max-width:640px) {
+    .cts2510_wrap .chant_item + .chant_item{margin-top:56px;}
+    .cts2510_wrap .label{width:130px;padding:8px 0;font-size:20px;line-height:24px;}
+    .cts2510_wrap .imagebox{margin-top:20px;}
+    .cts2510_wrap .goal_img{margin-top:18px;}
+    .cts2510_wrap .goal_img img{width:100%;}
+}
+
+/* 홍천군 >홍천군수 신영재 >걸어온길  */
+.cts2_wrap .content_wrap{padding-top:51px;}
+.cts2_wrap .content_wrap .head_box{width:1240px;margin-bottom:77px;}
+/* head left image */
+.cts2_wrap .content_wrap .head_box .head_img1{float:left;position:relative;width:430px;height:344px;margin-top:40px;margin-right:43px;margin-left:40px;background-image:url("../images/contents/cts2_wrap_head_img1.png");background-repeat:no-repeat;}
+.cts2_wrap .content_wrap .head_box .head_img1:before{display:block;position:absolute;top:-40px;left:-40px;width:430px;height:344px;background-image:url("../images/contents/cts2_wrap_head_img_backimg.png");background-repeat:no-repeat;content:'';}
+/* head right image */
+.cts2_wrap .content_wrap .head_box .head_text{float:left;position:relative;width:598px;height:340px;background-image:url("../images/contents/cts2_wrap_head_text_box_backimg1.png");background-repeat:no-repeat;}
+.cts2_wrap .content_wrap .head_box .head_text:before{display:block;position:absolute;top:calc(50% - 200px);left:calc(50% - 305px);width:102px;height:69px;background-image:url("../images/contents/cts2_wrap_head_text_box_backimg2.png");background-repeat:no-repeat;content:'';}
+.cts2_wrap .content_wrap .head_box .head_text .head_text_box{width:555px;padding-top:87px;padding-left:21px;font-size:25px;font-weight:200;line-height:36px;;text-align:left;}
+.cts2_wrap .content_wrap .head_box .head_text .head_text_box .text_box_text1{display:inline-block;width:298px;height:53px;margin-top:18px;background-image:url("../images/contents/cts2_wrap_text_box_text1.png");background-repeat:no-repeat;font-size:0px;line-height:0px;}
+.cts2_wrap .content_wrap .head_box .head_text .head_text_box .text_box_text2{display:inline-block;margin-left:4px;font-size:42px;font-weight:700;line-height:56px;vertical-align:bottom;}
+/* main content */
+.cts2_wrap .content_wrap .main_box{position:relative;width:1100px;padding-left:70px;}
+.cts2_wrap .content_wrap .main_box .main_text_box{position:relative;width:1000px;padding-top:48px;padding-left:148px;border:1px solid white;border-radius:150px 0px 0px 0px;font-size:18px;font-weight:300;line-height:33px;box-shadow:6px 0 34px rgba(0, 0, 0, 0.08);}
+/* 학력 */
+.cts2_wrap .content_wrap .main_box .main_text_box .text_box{position:relative;z-index:5;}
+.cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(1){padding-bottom:116px;}
+.cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(1):before{display:block;position:absolute;top:126px;left:-36px;width:513px;height:1px;background-image:url("../images/contents/cts2_wrap_main_box_bar.png");background-repeat:no-repeat;content:'';}
+.cts2_wrap .content_wrap .main_box .main_text_box .text_box .head_border{position:absolute;top:-48px;left:-222px;width:144px;height:118px;padding-top:42.5px;border:1px solid white;border-radius:10px 62px 10px 10px;background:linear-gradient(51deg, #d19d60 0%, #c02f42 70%);color:white;font-size:30px;font-weight:600;line-height:33px;text-align:center;}
+.cts2_wrap .content_wrap .main_box .main_text_box li{position:relative;}
+.cts2_wrap .content_wrap .main_box .main_text_box li:before{display:block;position:absolute;top:10px;left:-37px;width:23px;height:12px;background-image:url("../images/contents/cts2_wrap_li_img.png");background-repeat:no-repeat;content:'';}
+/* fot_box */
+.cts2_wrap .content_wrap .fot_text{position:absolute;bottom:240px;right:calc(50% - 250px);z-index:2;width:143px;font-size:18px;font-weight:200;line-height:35px;text-align:right;}
+.cts2_wrap .content_wrap .fot_text .fot_text_head{font-size:29px;font-weight:700;line-height:35px;}
+.cts2_wrap .content_wrap .fot_img:before{display:inline-block;position:absolute;right:calc(50% - 800px);bottom:0;z-index:3;width:540px;height:630px;background-image:url("../images/contents/cts2_image04.png");background-repeat:no-repeat;}
+.cts2_wrap .content_wrap .fot_img:after{display:block;position:absolute;right:calc(50% - 1032px);bottom:0;z-index:-1;width:1002px;height:235px;background-image:url("../images/contents/cts2_wrap_fot_back_img.png");background-repeat:no-repeat;content:'';}
+/* bottom_wrap */
+.cts2_wrap .content_wrap .main_box .bottom_wrap{position:absolute;bottom:-40px;left:0;width:1100px;height:40px;background-color:white;}
+@media screen and (max-width:1500px) {
+    /* head_box */
+    .cts2_wrap .content_wrap .head_box{width:100%;margin-bottom:40px}
+    .cts2_wrap .content_wrap .head_box .head_img1{float:none;margin:auto;margin-bottom:40px;}
+    .cts2_wrap .content_wrap .head_box .head_text{float:none;margin:auto;}
+    /* main_box */
+    .cts2_wrap .content_wrap .main_box{width:100%;padding-left:50px}
+    .cts2_wrap .content_wrap .main_box .main_text_box{width:80%;padding-left:130px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(1):before{width:410px}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box .head_border{left:-170px;width:120px;height:105px;}
+    /* fot_box */
+    .cts2_wrap .content_wrap .fot_text{right:calc(50% - 150px);font-size:16px;line-height:30px;}
+    .cts2_wrap .content_wrap .fot_text .fot_text_head{font-size:25px;line-height:30px;}
+    
+    .cts2_wrap .content_wrap .fot_img:before{right:calc(50% - 600px);width:450px;height:473px;background-size:contain;}
+    .cts2_wrap .content_wrap .fot_img{width:100%;position:relative;}
+}
+@media screen and (max-width:1200px) {
+    .cts2_wrap .content_wrap .fot_text{right:calc(50% - 200px);bottom:220px;}
+    .cts2_wrap .content_wrap .fot_img:before{right:calc(50% - 500px);width:400px;height:420px;}
+}
+@media all and (max-width:1000px){
+    .cts2_wrap .content_wrap .main_box{padding-left:38px;}
+    .cts2_wrap .content_wrap .head_box .head_text{height:240px;}
+    .cts2_wrap .content_wrap .head_box .head_text .head_text_box{padding-top:45px;font-size:22px;line-height:34px;}
+    .cts2_wrap .content_wrap .head_box .head_text .head_text_box .text_box_text1{width:250px;background-size:contain;margin-top:10px;}
+    .cts2_wrap .content_wrap .head_box .head_text .head_text_box .text_box_text2{font-size:36px;line-height:65px;}
+    /* main_box */
+    .cts2_wrap .content_wrap .main_box .main_text_box{width:100%;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(2){padding-bottom:50px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box .head_border{left:-150px;width:90px;height:80px;padding-top:30px;font-size:24px;line-height:30px;}
+    /* fot_box*/
+    .cts2_wrap .content_wrap .fot_text{top:20px;right:180px;}
+    .cts2_wrap .content_wrap .fot_img{height:240px;z-index: 2;}
+    .cts2_wrap .content_wrap .fot_img:before{right:-40px;width:300px;height:315px;}
+    .cts2_wrap .content_wrap .fot_img:after{right:-320px;}
+    .cts2_wrap .content_wrap .fot_img:after{right:calc(50% - 777px);}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(1){padding-bottom:70px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(1):before{top:100px;width:100%;}
+/*     .cts2_wrap .content_wrap .fot_img{margin-left:-130px;}
+    .cts2_wrap .content_wrap .fot_img:before{position:static;} */
+}
+@media all and (max-width:640px){
+    /* head_box */
+    .cts2_wrap .content_wrap .head_box{margin-bottom:20px;}
+    .cts2_wrap .content_wrap .head_box .head_img1{width:215px;height:172px;background-size:100%;margin-bottom:20px;}
+    .cts2_wrap .content_wrap .head_box .head_img1:before{top:-20px;left:-20px;width:215px;height:172px;background-size:100%;}
+    .cts2_wrap .content_wrap .head_box .head_text{width:100%;height:auto;}
+    .cts2_wrap .content_wrap .head_box .head_text:before{top:-25px;left:-5px;width:77px;height:52px;background-size:100%;}
+    .cts2_wrap .content_wrap .head_box .head_text .head_text_box{width:100%;padding-top:20px;font-size:18px;line-height:30px;}
+    .cts2_wrap .content_wrap .head_box .head_text .head_text_box .text_box_text1{width:169px;height:30px;}
+    .cts2_wrap .content_wrap .head_box .head_text .head_text_box .text_box_text2{margin-left:0;font-size:24px;line-height:46px;margin-left:5px;}
+    /* main_box */
+    .cts2_wrap .content_wrap .main_box{padding-left:0px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box{padding-left:60px;border-radius:80px 0px 0px 0px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box li{font-size:15px;line-height:30px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box{padding-top:15px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(1){padding-bottom:55px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(1):before{display:none;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box:nth-child(2){padding-bottom:20px;}
+    .cts2_wrap .content_wrap .main_box .main_text_box .text_box .head_border{left:-60px;width:80px;height:60px;font-size:18px;padding-top:17px;}
+    .cts2_wrap .content_wrap .fot_text{font-size:15px;line-height:20px;}
+    .cts2_wrap .content_wrap .fot_text .fot_text_head{font-size:20px;}
+    /* fot_box */
+    .cts2_wrap .content_wrap .fot_img:before{width:250px;height:263px;}
+}

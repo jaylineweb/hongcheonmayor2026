@@ -1,0 +1,109 @@
+@font-face{
+	font-family:'Score';
+	font-weight:100;
+	src:url("../font/S-CoreDream-1Thin.woff") format('woff');
+}
+@font-face{
+	font-family:'Score';
+	font-weight:200;
+	src:url("../font/S-CoreDream-2ExtraLight.woff") format('woff');
+}
+@font-face{
+	font-family:'Score';
+	font-weight:300;
+	src:url("../font/S-CoreDream-3Light.woff") format('woff');
+}
+@font-face{
+	font-family:'Score';
+	font-weight:400;
+	src:url("../font/S-CoreDream-4Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'Score';
+	font-weight:500;
+	src:url("../font/S-CoreDream-5Medium.woff") format('woff');
+}
+@font-face{
+	font-family:'Score';
+	font-weight:600;
+	src:url("../font/S-CoreDream-6Bold.woff") format('woff');
+}
+
+@font-face{
+	font-family:'Gmarket';
+	font-weight:500;
+	src:url("../font/GmarketSansTTFMedium.woff2") format('woff2'),
+    url("../font/GmarketSansTTFMedium.woff") format('woff');
+}
+@font-face{
+	font-family:'Gmarket';
+	font-weight:600;
+	src:url("../font/GmarketSansTTFBold.woff2") format('woff2'),
+    url("../font/GmarketSansTTFBold.woff") format('woff');
+}
+@font-face{
+	font-family:'Myraid';
+	font-weight:400;
+	src:url("../font/MyriadPro-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'Tangerine';
+	font-weight:600;
+	src:url("../font/Tangerine-Bold.woff") format('woff');
+}
+@font-face{
+	font-family:'Raleway';
+	font-weight:400;
+	src:url("../font/Raleway-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'SBAggro';
+	font-weight:300;
+	src:url("../font/SBAggroL.woff") format('woff');
+}
+@font-face{
+	font-family:'SBAggro';
+	font-weight:500;
+	src:url("../font/SBAggroM.woff") format('woff');
+}
+@font-face{
+	font-family:'SBAggro';
+	font-weight:600;
+	src:url("../font/SBAggroB.woff") format('woff');
+}
+@font-face{
+	font-family:'suite';
+	font-weight:400;
+	src:url("../font/SUIT-Regular.woff2") format('woff2');
+}
+@font-face{
+	font-family:'suite';
+	font-weight:500;
+	src:url("../font/SUIT-Medium.woff2") format('woff2');
+}
+@font-face{
+	font-family:'suite';
+	font-weight:600;
+	src:url("../font/SUIT-Bold.woff2") format('woff2');
+}
+@font-face{
+	font-family:'suite';
+	font-weight:700;
+	src:url("../font/SUIT-ExtraBold.woff2") format('woff2');
+}
+@font-face{
+	font-family:'suite';
+	font-weight:800;
+	src:url("../font/SUIT-Heavy.woff2") format('woff2');
+}
+@font-face{
+	font-family:'wavve';
+	font-weight:400;
+	src:url("../font/WavvePADO-Regular.woff2") format('woff2'),
+	url("../font/WavvePADO-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'g-wavve';
+	font-weight:400;
+	src:url("../font/GapyeongWave.woff") format('woff');
+}

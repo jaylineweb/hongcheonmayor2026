@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+/* 현장스케치 > 주요일정 */
+
+.program .scheduler{margin-top:52px; border:none;}
+.program .scheduler .schedule_left{position:relative; z-index:2; width:42.6%; padding:37px 50px 29px;}
+.program .scheduler .schedule_left:before{display:block; position:absolute; top:0; left:0; z-index:1; width:100%; height:100%; background-image:linear-gradient(to right, #e03c62 0%,#da8059 100%); border-radius:20px; content:''; box-shadow:rgba(0, 0, 0, 0.1) 23px 39px 35px;}
+.program .scheduler .schedule_left:after{display:block; position:absolute; top:3px; left:3px; z-index:1; width:calc(100% - 6px); height:calc(100% - 6px); background-color:#FFF; border-radius:17px; content:'';}
+
+.program .scheduler .schedule_left .top_area{position:relative; z-index:3; padding-top:0;}
+.program .scheduler .schedule_left .top_area .year{max-width:300px; margin:auto;}
+.program .scheduler .schedule_left .top_area .year .prev{width:38px; height:38px; margin-top:0; border-color:#d6dade; border-radius:5px;}
+.program .scheduler .schedule_left .top_area .year .prev:before{top:calc(50% - 9px); left:12px; width:11px; height:18px; background-repeat:no-repeat; background-position:left center; background-image:url("../images/program/calender_arrow.png");}
+.program .scheduler .schedule_left .top_area .year .prev:hover:before{background-position:left center; background-image:url("../images/program/calender_arrow.png"); transform:rotate(0deg);}
+.program .scheduler .schedule_left .top_area .year .next{width:38px; height:38px; margin-top:0; border-color:#d6dade; border-radius:5px;}
+.program .scheduler .schedule_left .top_area .year .next:before{top:calc(50% - 9px); right:12px; left:auto; width:11px; height:18px; background-repeat:no-repeat; background-position:right center; background-image:url("../images/program/calender_arrow.png"); transform:rotate(0deg);}
+.program .scheduler .schedule_left .top_area .year .next:hover:before{background-position:right center; background-image:url("../images/program/calender_arrow.png"); transform:rotate(0deg);}
+.program .scheduler .schedule_left .top_area .year .text{line-height:38px; vertical-align:top; color:#1e1f1f; font-family:'Score', 'Malgun Gothic', '맑은 고딕', 'Dotum', '돋움', 'Gulim', '굴림', sans-serif; font-size:26px; font-weight:600; letter-spacing:-0.03em;}
+.program .scheduler .schedule_left .top_area .year .text strong{display:inline; margin:0; font-size:26px; vertical-align:top;}
+.program .scheduler .schedule_left .top_area .year .text strong:before{display:inline; margin-right:11px; vertical-align:top; color:#1e1f1f; font-family:'Score', 'Malgun Gothic', '맑은 고딕', 'Dotum', '돋움', 'Gulim', '굴림', sans-serif; font-size:26px; font-weight:600; letter-spacing:-0.03em; content:'년';}
+.program .scheduler .schedule_left .top_area .year .text strong:after{display:inline; vertical-align:top; color:#1e1f1f; font-family:'Score', 'Malgun Gothic', '맑은 고딕', 'Dotum', '돋움', 'Gulim', '굴림', sans-serif; font-size:26px; font-weight:600; letter-spacing:-0.03em; content:'월';}
+
+
+.program .scheduler .schedule_left .calendar{position:relative; z-index:3; margin-top:16px; border-top:none;}
+.program .scheduler .schedule_left .calendar_table tr{border-bottom:none;}
+.program .scheduler .schedule_left .calendar_table thead th{background-color:transparent; padding:10px 0 11px; line-height:
+24px; color:#323232; font-size:16px; font-weight:500; letter-spacing:-0.06em;}
+.program .scheduler .schedule_left .calendar_table thead th.sun{color:#ce3629;}
+.program .scheduler .schedule_left .calendar_table tbody td{border:1px solid #e3e3e3; text-align:left; font-size:13px; font-weight:500;}
+.program .scheduler .schedule_left .calendar_table tbody td a{height:56px; color:#1a1a1a;}
+.program .scheduler .schedule_left .calendar_table tbody td .date{position:relative; padding:2px 0 0 7px; line-height:0;}
+.program .scheduler .schedule_left .calendar_table tbody td .date span{display:inline-block; position:relative; line-height:19px; vertical-align:top;}
+
+.program .scheduler .schedule_left .calendar_table tbody td.today{background-color:#fdebec;}
+.program .scheduler .schedule_left .calendar_table tbody td.today .date span{width:auto; height:auto; border-radius:0; background-color:transparent; color:#1a1a1a; line-height:19px;}
+.program .scheduler .schedule_left .calendar_table tbody td.plan .date span{width:auto; height:auto; background-color:transparent; line-height:19px;}
+.program .scheduler .schedule_left .calendar_table tbody td.plan .date span:before{display:block; position:absolute; bottom:-10px; left:calc(50% - 3px); width:7px; height:7px; background-color:#cd565d; border-radius:7px; color:transparent; font-size:0; content:'일정있음';}
+
+
+.program .scheduler .schedule_left .state_info{z-index:3; margin-top:20px; text-align:center;}
+.program .scheduler .schedule_left .state_info li{margin-left:38px; line-height:24px; color:#1a1a1a; font-size:15px; font-weight:400; letter-spacing:0;}
+.program .scheduler .schedule_left .state_info li:first-child{margin-left:0;}
+.program .scheduler .schedule_left .state_info li.today{padding-left:23px;}
+.program .scheduler .schedule_left .state_info li.plan{padding-left:18px;}
+
+.program .scheduler .schedule_left .state_info li.today:before{display:block; width:13px; height:13px; background-color:#fdebec; border-radius:0;}
+.program .scheduler .schedule_left .state_info li.plan:before{display:block; width:7px; height:7px; background-color:#cd565d; border-radius:7px; color:transparent; font-size:0; content:'일정있음';}
+.program .scheduler .schedule_left .state_info li span{display:none;}
+
+.program .scheduler .schedule_right{position:relative; width:57.4%; padding:27px 0 75px; border-left:none; background:none;}
+.program .scheduler .schedule_right:before{display:block; position:absolute; top:-80px; right:0; z-index:1; width:calc(100% + 130px); height:calc(100% + 80px); background-image:linear-gradient(123deg, #c23a52 0%,#ea965e 100%); border-radius:30px; border-top-left-radius:98px; content:'';}
+.program .scheduler .schedule_right .title{position:relative; z-index:2; margin:0 40px; padding-bottom:31px;}
+.program .scheduler .schedule_right .title h4{padding-left:0; line-height:42px; text-align:left; color:#FFF; font-size:34px; font-weight:700; letter-spacing:-0.03em;}
+.program .scheduler .schedule_right .title h4:before,
+.program .scheduler .schedule_right .title h4:after{display:none;}
+
+
+.program .scheduler .schedule_right .innerbox{position:relative; z-index:2; min-height:321px; padding:25px 29px; border-radius:20px;}
+.program .scheduler .schedule_right .innerbox ul li{margin-top:16px; padding-left:118px; line-height:27px; color:#000; font-size:18px; font-weight:200; letter-spacing:0;}
+.program .scheduler .schedule_right .innerbox ul li:first-child{margin-top:0;}
+.program .scheduler .schedule_right .innerbox ul li:before{top:9px; left:0; width:11px; height:11px; background-color:#cb4e55; background-image:none; border-radius:11px;}
+.program .scheduler .schedule_right .innerbox ul li .time{display:block; left:24px; line-height:27px; font-family:'Montserrat', 'Malgun Gothic', '맑은 고딕', 'Dotum', '돋움', 'Gulim', '굴림', sans-serif; font-size:20px; font-weight:400; letter-spacing:0;}
+
+
+@media all and (min-width:1241px) and (max-width:1700px){
+.cts2537_wrap.wrap{width:1240px;}
+}
+@media all and (min-width:1001px) and (max-width:1240px){
+.cts2537_wrap.wrap{width:1000px;}
+}
+
+
+@media screen and (max-width:1000px){
+.cts2537_wrap.wrap{width:auto;}
+.program .scheduler .schedule_left .top_area .year .text{font-size:20px;}
+.program .scheduler .schedule_left .top_area .year .text strong{font-size:20px;}
+.program .scheduler .schedule_left .top_area .year .text strong:before,
+.program .scheduler .schedule_left .top_area .year .text strong:after{font-size:20px;}
+}
+
+@media screen and (max-width:800px){
+.program .scheduler{position:relative;}
+.program .scheduler:before{display:block; position:absolute; top:-33px; right:-2%; z-index:1; width:102%; height:calc(100% + 4px); background-image:linear-gradient(123deg, #c23a52 0%,#ea965e 100%); border-radius:30px; border-top-left-radius:98px; content:'';}
+.program .scheduler .schedule_left{float:none; width:auto; padding:37px 8% 29px;}
+.program .scheduler .schedule_right{position:relative; z-index:2; float:none; width:auto;}
+.program .scheduler .schedule_right:before{display:none;}
+.program .scheduler .schedule_right .innerbox{min-height:0; margin:0 4% 4%; padding:25px 6%;}
+}
+
+
+
+
+
+
+
+
+
+
+

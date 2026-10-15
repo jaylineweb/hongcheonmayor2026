@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="열린군수실2026" name="title" />
+    <meta content="열린군수실2026" name="keywords" />
+    <meta content="홍천군 열린군수실 홈페이지에 오신것을 환영합니다." name="description" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta content="열린군수실2026" property="og:site_name" />
+    <meta content="url 표기" property="og:url" />
+    <meta content="대표 이미지 경로" property="og:image" />
+    <meta content="열린군수실2026" property="og:title" />
+    <meta content="홍천군 열린군수실 홈페이지에 오신것을 환영합니다." property="og:description" />
+    <meta content="website" property="og:type" />
+    <link rel="shortcut icon" href="../common/favicon.ico" />
+    <link rel="icon" href="../common/favicon.ico" />
+    <link rel="apple-touch-icon" href="../common/app_ico.png" sizes="152x152" /> <!-- 이미지 있는 경우만 적용 그외는 삭제 -->
+    <link rel="stylesheet" href="../common/css/font.css" />
+    <!--[if lt IE 9]><link rel="stylesheet" href="../common/css/font_ie8.css" /><![endif]-->
+    <link rel="stylesheet" href="../site/mayor2026/css/sub.css?ver=261012" />
+    <!--[if lt IE 9]><script src="../common/js/html5.js"></script><![endif]-->
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-ui.min.js"></script>
+    <script src="../common/js/jquery.easing.1.3.min.js"></script>
+    <script src="../common/js/plugins.js"></script>
+    <script>
+        var site = {
+            id: 'mayor2026',
+            key: '',
+            layout: '',
+            order: '',
+            login: 'false'
+        };
+    </script>
+    <script src="../common/js/layout.js"></script>
+    <script src="../site/department/js/common.js"></script>
+    <script src="../site/mayor2026/js/common.js"></script>
+    <script src="../site/mayor2026/js/sub.js"></script>
+    <title>열린군수실2022</title>
+    <!-- 신규홈페이지이동 -->
+    <script type="text/javascript">
+        /*
+			window.onload = function() {
+			}
+		*/
+    </script>
+</head>
+
+<body class="sub" id="sub">
+    <div class="accessibility">
+        <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrapper">
+        <header id="header">
+            <div class="gnb">
+                <div class="wrap clearfix">
+                    <div class="gnb_site">
+                        <ul class="gnb_list clearfix">
+                            <li class="gnb_item active"><a class="gnb_text" href="/www/index.do" target="_blank" title="새창">홍천군청</a></li> <!-- 접속한 사이트에 맞게 클래스(active)를 넣어주세요 -->
+                            <li class="gnb_item"><a class="gnb_text" href="http://www.hccouncil.go.kr/" target="_blank" title="새창">홍천군의회</a></li>
+                            <li class="gnb_item"><a class="gnb_text" href="/tour/index.do" target="_blank" title="새창">문화관광</a></li>
+                            <li class="gnb_item"><a class="gnb_text" href="/edu/index.do" target="_blank" title="새창">평생교육</a></li>
+                            <li class="gnb_item"><a class="gnb_text" href="http://www.hongcheon-mall.com/" target="_blank" title="새창">홍천몰</a></li>
+                        </ul>
+                    </div>
+                    <div class="gnb_link">
+                        <ul class="gnb_list clearfix">
+                            <li class="gnb_item">
+                                <a class="gnb_text login" href="/loginForm.do?siteId=mayor2026&amp;TARGET=../mayor2026/index.do">로그인</a>
+                            </li>
+                            <li class="gnb_item welfare">
+                                <button class="gnb_text welfare_open" type="button">맞춤복지서비스</button>
+                                <div class="welfare_guide">
+                                    <p>해당버튼을 클릭하면 <br /><span class="welfare_subject">나에게 맞는 복지서비스</span>를 <br />쉽게 찾을 수 있습니다.</p>
+                                </div>
+                                <div class="welfare_panel">
+                                    <div class="wrap">
+                                        <div class="welfare_content">
+                                            <p>나에게 꼭 맞는 복지서비스 쉽게 찾기!</p>
+                                            <h2><img alt="홍천 맞춤복지서비스" src="../site/department/images/common/welfare_title.png" /></h2>
+                                            <ul class="clearfix">
+                                                <li class="n1"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY01">임신·출산</a></li>
+                                                <li class="n2"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY02">영유아</a></li>
+                                                <li class="n3"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY03">아동·청소년</a></li>
+                                                <li class="n4"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY07">장애인</a></li>
+                                                <li class="n5"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY08">한부모</a></li>
+                                                <li class="n6"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY11">교육</a></li>
+                                                <li class="n7"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY12">고용</a></li>
+                                                <li class="n8"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY13">주거</a></li>
+                                                <li class="n9"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY04">청년</a></li>
+                                                <li class="n10"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY05">중장년</a></li>
+                                                <li class="n11"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY06">노년</a></li>
+                                                <li class="n12"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY09">다문화새터민</a></li>
+                                                <li class="n13"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY10">저소득층</a></li>
+                                                <li class="n14"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY14">건강</a></li>
+                                                <li class="n15"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY15">농업인</a></li>
+                                                <li class="n16"><a href="/www/selectWlfareSvcWebList.do?key=1537&amp;servType=SVCTY16">문화</a></li>
+                                            </ul>
+                                            <button class="welfare_close" type="button">닫기</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="gnb_item family">
+                                <button class="gnb_text family_open" type="button">홍천패밀리홈페이지</button>
+                                <div class="family_guide">
+                                    <p>해당버튼을 클릭하면 <br /><span class="family_subject">홍천의 주요 관련사이트 <br />목록</span>을 보실 수 있습니다.</p>
+                                </div>
+                                <div class="family_panel">
+                                    <div class="wrap">
+                                        <div class="family_content">
+                                            <p>홍천 주요누리집을 한눈에!</p>
+                                            <h2><img alt="홍천 패밀리누리집 모아보기" src="../site/department/images/common/family_title02.png" /></h2>
+                                            <ul class="family_list clearfix">
+                                                <li class="family_item">
+                                                    <div class="family_title">
+                                                        <a href="#n">의회/직속기관/사업소</a>
+                                                    </div>
+                                                    <div class="family_link">
+                                                        <ul>
+                                                            <li><a href="http://www.hccouncil.go.kr/" rel="noopener noreferrer" target="_blank" title="새창">홍천군의회</a></li>
+                                                            <li><a href="/health/index.do" target="_blank" title="새창">보건소</a></li>
+                                                            <li><a href="/agri/index.do" target="_blank" title="새창">농업기술센터</a></li>
+                                                            <li><a href="/water/index.do" target="_blank" title="새창">상하수도사업소</a></li>
+                                                            <li><a href="/palbong/index.do" target="_blank" title="새창">팔봉산관리사무소</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="family_item">
+                                                    <div class="family_title">
+                                                        <a href="#n">읍면</a>
+                                                    </div>
+                                                    <div class="family_link">
+                                                        <ul>
+                                                            <li><a href="/www/sub.do?key=328">홍천읍</a></li>
+                                                            <li><a href="/www/sub.do?key=332">화촌면</a></li>
+                                                            <li><a href="/www/sub.do?key=336">두촌면</a></li>
+                                                            <li><a href="/www/sub.do?key=340">내촌면</a></li>
+                                                            <li><a href="/www/sub.do?key=344">서석면</a></li>
+                                                            <li><a href="/www/sub.do?key=349">영귀미면</a></li>
+                                                            <li><a href="/www/sub.do?key=353">남면</a></li>
+                                                            <li><a href="/www/sub.do?key=357">서면</a></li>
+                                                            <li><a href="/www/sub.do?key=361">북방면</a></li>
+                                                            <li><a href="/www/sub.do?key=365">내면</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="family_item">
+                                                    <div class="family_title">
+                                                        <a href="#n">홍보</a>
+                                                    </div>
+                                                    <div class="family_link">
+                                                        <ul>
+                                                            <!-- <li><a href="/promote/index.do" target="_blank" title="새창">홍천홍보관</a></li> -->
+                                                            <li><a href="https://blog.naver.com/hcgnews" rel="noopener noreferrer" target="_blank" title="새창">홍천군블로그</a></li>
+                                                            <li><a href="https://www.youtube.com/c/hongcheongun" rel="noopener noreferrer" target="_blank" title="새창">홍천군유튜브</a></li>
+                                                            <li><a href="https://twitter.com/hongcheongun" rel="noopener noreferrer" target="_blank" title="새창">홍천군트위터</a></li>
+                                                            <li><a href="https://www.facebook.com/hongcheoncounty/" rel="noopener noreferrer" target="_blank" title="새창">홍천군페이스북</a></li>
+                                                            <li><a href="https://www.instagram.com/hongcheongun_official/" rel="noopener noreferrer" target="_blank" title="새창">홍천군인스타그램</a></li>
+                                                            <li><a href="https://blog.naver.com/greenhanwoo" rel="noopener noreferrer" target="_blank" title="새창">홍천한우 블로그</a></li>
+                                                            <li><a href="http://www.ktbiz5g.co.kr/air_hc/forecast/index.html" rel="noopener noreferrer" target="_blank" title="새창">홍천군 공기질서비스</a></li>
+                                                            <li><a href="https://hongcheon-mall.com" rel="noopener noreferrer" target="_blank" title="새창">홍천몰</a></li>
+                                                            <li><a href="https://www.hongcheon.go.kr/hcbic" target="_blank" title="새창">홍천군청년창업지원센터(창업공작소)</a></li>
+                                                            <li><a href="https://www.hongcheon.go.kr/urhc" target="_blank" title="새창">홍천군도시재생지원센터</a></li>
+                                                            <li><a href="https://gwwell.kr/hongcheon" rel="noopener noreferrer" target="_blank" title="새창">홍천형 일자리 안심공제</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="family_item">
+                                                    <div class="family_title">
+                                                        <a href="#n">문화/강좌</a>
+                                                    </div>
+                                                    <div class="family_link">
+                                                        <ul>
+                                                            <li><a href="http://hongcheon.scinema.org/" rel="noopener noreferrer" target="_blank" title="새창">홍천시네마</a></li>
+                                                            <li><a href="https://hongcheonlib.go.kr/main/index.do" target="_blank" title="새창">홍천군립도서관</a></li>
+                                                            <li><a href="/sciencecenter/index.do" target="_blank" title="새창">생명건강과학관</a></li>
+                                                            <li><a href="/edu/index.do" target="_blank" title="새창">평생교육포털</a></li>
+                                                            <li><a href="http://hcnanum.or.kr/" rel="noopener noreferrer" target="_blank" title="새창">종합사회복지관</a></li>
+                                                            <li><a href="http://www.hcsports.kr/" rel="noopener noreferrer" target="_blank" title="새창">홍천군 체육회</a></li>
+                                                            <li><a href="https://hongcheon.greendaero.go.kr/" rel="noopener noreferrer" target="_blank" title="새창">귀농귀촌종합센터</a></li>
+                                                            <li><a href="http://www.hccc.co.kr/" rel="noopener noreferrer" target="_blank" title="새창">홍천문화원</a></li>
+                                                            <li><a href="https://www.hongcheon.go.kr/museum/" rel="noopener noreferrer" target="_blank" title="새창">홍천박물관&amp;미술관</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="family_item">
+                                                    <div class="family_title">
+                                                        <a href="#n">보건/복지</a>
+                                                    </div>
+                                                    <div class="family_link">
+                                                        <ul>
+                                                            <li><a href="/mental/index.do" target="_blank" title="새창">정신건강복지센터</a></li>
+                                                            <li><a href="/hchd/index.do" target="_blank" title="새창">고혈압당뇨병등록<br />교육센터</a></li>
+                                                            <li><a href="http://hcknowin.org/" rel="noopener noreferrer" target="_blank" title="새창">홍천노인복지관</a></li>
+                                                            <li><a href="http://hongcheon.dreamstart.go.kr/" rel="noopener noreferrer" target="_blank" title="새창">홍천드림스타트</a></li>
+                                                            <li><a href="https://hongcheon.familynet.or.kr" rel="noopener noreferrer" target="_blank" title="새창">홍천군가족센터</a></li>
+                                                            <li><a href="http://www.hcsenior.or.kr/" rel="noopener noreferrer" target="_blank" title="새창">홍천노인일자리 전담센터</a></li>
+                                                            <li><a href=" http://www.hcwelfare.org/" target="_blank" title="새창">홍천군장애인복지관</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="family_item">
+                                                    <div class="family_title">
+                                                        <a href="#n">관광/축제</a>
+                                                    </div>
+                                                    <div class="family_link">
+                                                        <ul>
+                                                            <li><a href="/tour/index.do" target="_blank" title="새창">홍천문화관광</a></li>
+                                                            <!--<li><a href="http://hcleports.com/" target="_blank" title="새창">홍천레포츠</a></li>-->
+                                                            <li><a href="https://www.hccf.or.kr/" rel="noopener noreferrer" target="_blank" title="새창">홍천문화재단<br />(문화/축제)</a></li>
+                                                            <li><a href="/palbong/index.do" target="_blank" title="새창">팔봉산관광지</a></li>
+                                                            <!-- <li><a href="https://www.hongcheon.go.kr/sutasa" target="_blank" title="새창">공작산생태숲</a></li> -->
+                                                            <li><a href="https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030002" rel="noopener noreferrer" target="_blank" title="새창">가리산자연휴양림</a></li>
+                                                            <li><a href="http://www.hongcheonbus.kr/" rel="noopener noreferrer" target="_blank" title="새창">홍천군 대중교통</a></li>
+                                                            <li><a href="https://hcyc.kr" rel="noopener noreferrer" target="_blank" title="새창">홍천청소년수련관</a></li>
+                                                            <li><a href="https://www.xn--p50b7i49w7var22dita35uc3k6b.com/" rel="noopener noreferrer" target="_blank" title="새창">홍천농촌문화터미널</a></li>
+                                                            <!-- <li><a href="/promote/index.do" target="_blank" title="새창">홍천홍보관</a></li> -->
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="family_item">
+                                                    <div class="family_title">
+                                                        <a href="/reserv/index.do" target="_blank" title="새창">체육공원예약</a>
+                                                    </div>
+                                                    <div class="family_link">
+                                                        <ul>
+                                                            <li><a href="/reserv/sub.do?key=1710" target="_blank" title="새창">홍천읍 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1246" target="_blank" title="새창">화촌면 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1247" target="_blank" title="새창">두촌면 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1248" target="_blank" title="새창">내촌면 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1249" target="_blank" title="새창">서석면 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1250" target="_blank" title="새창">영귀미면 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1251" target="_blank" title="새창">남면 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1252" target="_blank" title="새창">서면 생활체육공원</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1253" target="_blank" title="새창">북방면 공설운동장</a></li>
+                                                            <li><a href="/reserv/sub.do?key=1254" target="_blank" title="새창">내면 고원체육공원</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <button class="family_close" type="button">닫기</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header_box">
+                <div class="wrap">
+                    <h1 class="logo">
+                        <a href="./index.do">
+                            <span class="logo_img">홍천군</span>
+                            <span class="logo_text">함께하는 군수실</span>
+                        </a>
+                    </h1>
+                </div>
+            </div>
+            <div class="lnb">
+                <div class="menu_show">
+                    <button class="menu_btn" type="button">메뉴열기</button>
+                </div>
+                <nav class="menu after pulldown">
+                    <h2 class="skip">메뉴</h2>
+                    <div class="menu_title">
+                        <div class="menu_link">
+                            <ul class="clearfix">
+                                <li>
+                                    <a class="gnb_text" href="/loginForm.do?siteId=mayor2026&amp;TARGET=../mayor2026/index.do">로그인</a>
+                                </li>
+                                <li>
+                                    <a href="./sitemap.do?key=2539">사이트맵</a>
+                                </li>
+                                <li>
+                                    <a class="gnb_text" href="/www/index.do">홍천군청</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="depth depth1 clearfix">
+                        <ul class="depth_list depth1_list clearfix">
+                            <li class="depth_item depth1_item">
+                                <a class="depth_text depth1_text" href="../mayor2026/contents.do?key=2508" target="_self">홍천군수 신영재</a>
+                                <div class="depth depth2">
+                                    <div class="depth2_content">
+                                        <div class="depth_title depth2_title clearfix">
+                                            <div class="depth2_intro">
+                                                <span class="depth2_subject">홍천군수 신영재</span>
+                                            </div>
+                                        </div>
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2508" target="_self">인사말</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2509" target="_self">걸어온길</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2511" target="_self">역대군수</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a class="depth_text depth1_text" href="../mayor2026/contents.do?key=2554" target="_blank" title="새창">공약과 실천</a>
+                                <div class="depth depth2">
+                                    <div class="depth2_content">
+                                        <div class="depth_title depth2_title clearfix">
+                                            <div class="depth2_intro">
+                                                <span class="depth2_subject">공약과 실천</span>
+                                            </div>
+                                        </div>
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2554" target="_self">공약총괄</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2555" target="_self">공약추진현황</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2557" target="_self">사업별 이행현황</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2557" target="_self">5대 대표공약</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2558" target="_self">3대가 잘 사는 홍천 경제</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2559" target="_self">농사는 걱정없이 소득은 확실하게</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2560" target="_self">따뜻한 복지 행복한 홍천</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2561" target="_self">지역이 책임지는 평생학습도시</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2562" target="_self">사람이 넘쳐나는 활기찬 홍천</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2563" target="_self">신뢰받는 행정 구현</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a class="depth_text depth3_text" href="../mayor2026/contents.do?key=2564" target="_self">읍면 중점사업</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2552" target="_self">군정기본방향</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/contents.do?key=2553" target="_self">관리지침</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="http://manifesto.or.kr" target="_blank" title="새창">메니페스토 이야기</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a class="depth_text depth1_text" href="../mayor2026/selectBbsNttList.do?bbsNo=94&amp;key=2531" target="_self">현장스케치</a>
+                                <div class="depth depth2">
+                                    <div class="depth2_content">
+                                        <div class="depth_title depth2_title clearfix">
+                                            <div class="depth2_intro">
+                                                <span class="depth2_subject">현장스케치</span>
+                                            </div>
+                                        </div>
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/selectBbsNttList.do?bbsNo=94&amp;key=2531" target="_self">사진 게시판</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a class="depth_text depth1_text" href="../mayor2026/contents.do?key=2533" target="_self">군수와의 대화방</a>
+                                <div class="depth depth2">
+                                    <div class="depth2_content">
+                                        <div class="depth_title depth2_title clearfix">
+                                            <div class="depth2_intro">
+                                                <span class="depth2_subject">군수와의 대화방</span>
+                                            </div>
+                                        </div>
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a class="depth_text depth2_text" href="../mayor2026/selectBbsNttList.do?bbsNo=111&amp;key=2532" target="_self">군수와의 대화방</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <a class="sitemap" href="./sitemap.do?key=2539">사이트맵</a>
+                    </div>
+                    <div class="menu_hide">
+                        <button class="menu_btn" type="button">메뉴 닫기</button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="sub_visual m1">
+            <h2 class="sub_visual_head">인사말</h2>
+            <div class="path_box">
+                <div class="path">
+                    <ul class="path_wrap">
+                        <li class="home"><a href="https://www.hongcheon.go.kr/mayor2022/index.do">홈</a></li>
+                        <li class="list">
+                            <button class="list_btn" title="목록열기" type="button"><span>홍천군수 신영재</span></button>
+                            <div class="layer">
+                                <ul>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/contents.do?key=2508" target="_self">홍천군수 신영재</a>
+                                    </li>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/contents.do?key=2554" target="_self">공약과 실천</a>
+                                    </li>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/selectBbsNttList.do?bbsNo=94&amp;key=2531" target="_self">현장스케치</a>
+                                    </li>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/contents.do?key=2533" target="_self">군수와의 대화방</a>
+                                    </li>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/sitemap.do?key=2539" target="_self">홈페이지 가이드</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="list">
+                            <button class="list_btn" title="목록열기" type="button"><span></span></button>
+                            <div class="layer">
+                                <ul>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/contents.do?key=2508" target="_self">인사말</a>
+                                    </li>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/contents.do?key=2509" target="_self">걸어온길</a>
+                                    </li>
+                                    <li class="depth_item depth2_item">
+                                        <a class="depth_text depth2_text" href="https://www.hongcheon.go.kr/mayor2022/contents.do?key=2511" target="_self">역대군수</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="addon">
+                        <div class="sns_share">
+                            <button class="share_open" title="sns목록펼치기" type="button">공유하기</button>
+                            <div class="sns_wrap">
+                                <div class="skip">공유하기</div>
+                                <ul class="sns_list">
+                                    <li class="share_item n1"><a href="" rel="noopener noreferrer" target="_blank" title="새창">어딘가</a></li>
+                                </ul>
+                                <button class="share_close" title="sns목록접기" type="button">닫기</button>
+                            </div>
+                        </div>
+                        <div class="print">
+                            <button class="print_btn" type="button">인쇄하기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="container">
+            <div class="wrap clearfix">
+                <main class="colgroup" id="colgroup">
+                    <article>
+                        <header class="sub_head">
+                        </header>
+                        <div class="cts2508" id="contents">
+                            <!-- ctsxxx(키번호) -->
+                            <div class="cts2508_wrap">
+                                <div class="photo_box">
+                                    <img src="../site/mayor2026/images/contents/cts2508_mayor.png" alt="홍천군수 신영재" />
+                                </div>
+                                <div class="text_box">
+                                    <div class="title_box">
+                                        <p class="eng">Hongcheon - Gun</p>
+                                        <h3 class="title"><img src="../site/mayor2026/images/contents/cts2508_img01.png" alt="존경하는 홍천군민 여러분, 안녕하십니까? 홍천군수 신영재입니다." /></h3>
+                                    </div>
+                                    <div class="text_content">
+                                        <p class="first"><strong>수도권으로 도약하는 경제으뜸도시 홍천에 오신 것을 환영합니다.</strong><br />우리 군은 용문~홍천 광역철도의 조기 착공을 위한 후속 절차를 차질 없이 밟고,<br />역세권 개발과 광역교통망 확충을 선제적으로 준비하여 수도권 시대를 이끌 새로운<br />도시 기반을 확실하게 다지고자 합니다.</p>
+                                        <p>3대가 잘 사는 홍천 경제, 농사는 걱정없이 소득은 확실하게, 따뜻한 복지 행복한 홍천,<br />지역이 책임지는 평생학습도시, 사람이 넘쳐나는 활기찬 홍천, 신뢰받는 행정 구현을<br />군정 목표로 더 넓은 홍천, 더 행복한 군민을 위하여 최선의 노력을 다하겠습니다.</p>
+                                        <p>광역철도 시대를 현실로 만들고, 첨단 산업을 육성하며, 원도심과 농업,<br />관광의 경쟁력을 높여 군민이 피부로 느끼는 변화를 만들어내겠습니다.</p>
+                                        <p>또한, 군민과의 신뢰를 끝까지 지키며, 늘 군민과 같은 곳을 바라보며 함께 걸어가겠습니다.</p>
+                                        <p>감사합니다.</p>
+                                        <p class="sign"><img src="../site/mayor2026/images/contents/autograph.png" alt="홍천군수 신영재" /></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //cts1_wrap -->
+                        </div>
+                        <!-- //#contents -->
+                    </article>
+                </main>
+            </div>
+        </div>
+        <!-- //#container -->
+        <footer id="footer">
+            <div class="wrap">
+                <div class="banner">
+                    <div class="banner_content">
+                        <h2>관련배너모음</h2>
+                        <div class="banner_control">
+                            <button class="banner_prev" type="button">이전</button>
+                            <button class="banner_auto" type="button"> </button>
+                            <button class="banner_next" type="button">다음</button>
+                            <a class="banner_more" href="https://www.hongcheon.go.kr/www/selectLinkZoneItemList.do?key=676&amp;linkZoneNo=1">더보기</a>
+                        </div>
+                        <div class="banner_list">
+                            <div class="banner_item"><a href="https://bojo.hongcheon.go.kr/haris/main/index.html" target="_blank" title="새창">홍천군청 보조사업자용시스템</a></div>
+                            <div class="banner_item"><a href="http://www.1389.or.kr" target="_blank" title="새창">강원도노인보호전문기관</a></div>
+                            <div class="banner_item"><a href="https://ccfsm.foodnara.go.kr/hongcheon/" target="_blank" title="새창">홍천군어린이급식관리지원센터</a></div>
+                            <div class="banner_item"><a href="https://korean.visitkorea.or.kr/main/main.do#home" target="_blank" title="새창">대한민국 구석구석</a></div>
+                            <div class="banner_item"><a href="https://www.wetax.go.kr/main/?cmd=LPTIOA0R0" target="_blank" title="새창">고액·상습체납자 명단공개</a></div>
+                            <div class="banner_item"><a href="http://www.bokjiro.go.kr" target="_blank" title="새창">복지로</a></div>
+                            <div class="banner_item"><a href="https://cleanbudongsan.go.kr" target="_blank" title="새창">부동산거래질서교란행위 신고센터</a></div>
+                            <div class="banner_item"><a href="https://www.consumer.go.kr" target="_blank" title="새창">소비자24</a></div>
+                            <div class="banner_item"><a href="https://job.gwd.go.kr/gwjob" target="_blank" title="새창">강원일자리정보망</a></div>
+                            <div class="banner_item"><a href="https://www.juminegov.go.kr" target="_blank" title="새창">주민e직접 플랫폼</a></div>
+                            <div class="banner_item"><a href="http://www.simpan.go.kr/" target="_blank" title="새창">온라인 행정심판</a></div>
+                            <div class="banner_item"><a href="https://1398.acrc.go.kr/" target="_blank" title="새창">공익신고자 보호제도</a></div>
+                            <div class="banner_item"><a href="http://www.kamis.or.kr/" target="_blank" title="새창">농산물유통정보</a></div>
+                            <div class="banner_item"><a href="http://gwpeace.gwd.go.kr/" target="_blank" title="새창">강원평화특별자치도</a></div>
+                            <div class="banner_item"><a href="http://www.hurb.or.kr/" target="_blank" title="새창">보건의료자원 통합신고포털</a></div>
+                            <div class="banner_item"><a href="http://www.gosims.go.kr/" target="_blank" title="새창">국고보조금통합관리시스템</a></div>
+                            <div class="banner_item"><a href="http://www.greentogether.go.kr/" target="_blank" title="새창">녹색건축포털(그린투게더)</a></div>
+                            <div class="banner_item"><a href="https://irts.molit.go.kr/" target="_blank" title="새창">부동산거래 전자계약시스템</a></div>
+                            <div class="banner_item"><a href="http://www.1365.go.kr/" target="_blank" title="새창">나눔포털</a></div>
+                            <div class="banner_item"><a href="http://helpcall.mnd.mil.kr/" target="_blank" title="새창">국방헬프콜</a></div>
+                            <div class="banner_item"><a href="http://www.rehab.or.kr/" target="_blank" title="새창">강원도장애인종합복지관</a></div>
+                            <div class="banner_item"><a href="http://www.hcinews.com/" target="_blank" title="새창">홍천인터넷신문</a></div>
+                            <div class="banner_item"><a href="http://www.animal.go.kr/portal_rnl/abandonment/public_list.jsp" target="_blank" title="새창">동물보호관리시스템</a></div>
+                            <div class="banner_item"><a href="http://www.mfds.go.kr/cfscr/index.do" target="_blank" title="새창">식품안전소비자신고센터</a></div>
+                            <div class="banner_item"><a href="http://www.bike.go.kr/" target="_blank" title="새창">자전거 행복나눔</a></div>
+                            <div class="banner_item"><a href="http://www.kesco.or.kr/" target="_blank" title="새창">한국전기안전공사</a></div>
+                            <div class="banner_item"><a href="http://www.acrc.go.kr/" target="_blank" title="새창">국민권익위원회</a></div>
+                            <div class="banner_item"><a href="http://www.sexoffender.go.kr/" target="_blank" title="새창">성범죄자 알림e</a></div>
+                            <div class="banner_item"><a href="http://www.onbid.co.kr/" target="_blank" title="새창">인터넷공매시스템(온비드)</a></div>
+                            <div class="banner_item"><a href="http://web.kma.go.kr/aboutkma/intro/gangwon/index.jsp" target="_blank" title="새창">강원지방기상청</a></div>
+                            <div class="banner_item"><a href="http://www.missingchild.or.kr/" target="_blank" title="새창">실종아동 찾기(초록우산)</a></div>
+                            <div class="banner_item"><a href="http://www.eum.go.kr" target="_blank" title="새창">토지e음(토지이용규제정보)</a></div>
+                            <div class="banner_item"><a href="https://www.hometax.go.kr/websquare/websquare.wq?w2xPath=/ui/pp/index_pp.xml&amp;tmIdx=01&amp;tm2lIdx=0107000000&amp;tm3lIdx=0107110000#" target="_blank" title="새창">양도소득세 종합안내</a></div>
+                            <div class="banner_item"><a href="http://www.armyjob.kr/" target="_blank" title="새창">강원도 제대군인 정착지원센터</a></div>
+                            <div class="banner_item"><a href="http://www.namk.or.kr/" target="_blank" title="새창">전국시장·군수·구청장협의회</a></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="site">
+                    <ul class="site_list">
+                        <li class="site_item">
+                            <button class="site_open" type="button">사업소·읍면</button>
+                            <div class="site_panel clearfix">
+                                <div class="site_type">
+                                    <div class="site_title">
+                                        <span class="site_subject">사업소</span> <!-- 링크 중 새창이 있을 때 type2 클래스를 넣어주세요 -->
+                                    </div>
+                                    <div class="site_link">
+                                        <ul>
+                                            <li><a href="/health/index.do" target="_blank" title="새창">보건소</a></li>
+                                            <li><a href="/agri/index.do" target="_blank" title="새창">농업기술센터</a></li>
+                                            <li><a href="/water/index.do" target="_blank" title="새창">상하수도사업소</a></li>
+                                            <li><a href="/palbong/index.do" target="_blank" title="새창">팔봉산관리사무소</a></li>
+                                            <li><a href="/sciencecenter/index.do" target="_blank" title="새창">생명건강과학관</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="site_type">
+                                    <div class="site_title">
+                                        <span class="site_subject">읍면</span>
+                                    </div>
+                                    <div class="site_link">
+                                        <ul>
+                                            <li><a href="/www/sub.do?key=328">홍천읍</a></li>
+                                            <li><a href="/www/sub.do?key=332">화촌면</a></li>
+                                            <li><a href="/www/sub.do?key=336">두촌면</a></li>
+                                            <li><a href="/www/sub.do?key=340">내촌면</a></li>
+                                            <li><a href="/www/sub.do?key=344">서석면</a></li>
+                                            <li><a href="/www/sub.do?key=349">영귀미면</a></li>
+                                            <li><a href="/www/sub.do?key=353">남면</a></li>
+                                            <li><a href="/www/sub.do?key=357">서면</a></li>
+                                            <li><a href="/www/sub.do?key=361">북방면</a></li>
+                                            <li><a href="/www/sub.do?key=365">내면</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="site_close" type="button">닫기</button>
+                            </div>
+                        </li>
+                        <li class="site_item">
+                            <button class="site_open" type="button">유관기관</button>
+                            <div class="site_panel">
+                                <div class="site_type">
+                                    <div class="site_title">
+                                        <span class="site_subject">유관기관</span>
+                                    </div>
+                                    <div class="site_link">
+                                        <ul class="clearfix">
+                                            <li><a href="http://www.kangwoncitygas.co.kr/" target="_blank" title="새창">강원도시가스</a></li>
+                                            <li><a href="https://www.hccf.or.kr/" target="_blank" title="새창">홍천문화재단</a></li>
+                                            <li><a href="http://www.himh.re.kr/" target="_blank" title="새창">메디칼허브연구소</a></li>
+                                            <li><a href="http://www.hcsports.kr/" target="_blank" title="새창">홍천군체육회</a></li>
+                                            <li><a href="http://www.hchy.co.kr/" target="_blank" title="새창">홍천향교</a></li>
+                                            <li><a href="http://www.naqs.go.kr/" target="_blank" title="새창">농산물품질관리원</a></li>
+                                            <li><a href="http://www.gwpolice.go.kr/hc" target="_blank" title="새창">홍천경찰서</a></li>
+                                            <li><a href="http://gwhce.gwe.go.kr/" target="_blank" title="새창">홍천교육지원청</a></li>
+                                            <li><a href="http://www.hccc.co.kr/" target="_blank" title="새창">홍천문화원</a></li>
+                                            <li><a href="http://hc119.gwd.go.kr/" target="_blank" title="새창">홍천소방서</a></li>
+                                            <li><a href="http://j.nts.go.kr/hc/" target="_blank" title="새창">홍천세무서</a></li>
+                                            <li><a href="http://ecopark.gwd.go.kr/" target="_blank" title="새창">자연환경연구공원</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="site_close" type="button">닫기</button>
+                            </div>
+                        </li>
+                        <li class="site_item">
+                            <button class="site_open" type="button">농촌체험·정보화마을</button>
+                            <div class="site_panel clearfix">
+                                <div class="site_type">
+                                    <div class="site_title">
+                                        <span class="site_subject">농촌체험</span>
+                                    </div>
+                                    <div class="site_link">
+                                        <ul>
+                                            <li><a href="http://www.mgh.co.kr/" target="_blank" title="새창">무궁화마을</a></li>
+                                            <li><a href="http://www.mgrbest.com/" target="_blank" title="새창">열목어마을</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="site_type">
+                                    <div class="site_title">
+                                        <span class="site_subject">정보화마을</span>
+                                    </div>
+                                    <div class="site_link">
+                                        <ul>
+                                            <li><a href="http://samsaeng.invil.org/" target="_blank" title="새창">삼생정보화마을</a></li>
+                                            <li><a href="http://palbong.invil.org/" target="_blank" title="새창">팔봉참살이마을</a></li>
+                                            <li><a href="http://saldun.invil.org/" target="_blank" title="새창">살둔마을</a></li>
+                                            <li><a href="http://seogak.invil.org/" target="_blank" title="새창">서각마을</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="site_close" type="button">닫기</button>
+                            </div>
+                        </li>
+                        <li class="site_item">
+                            <button class="site_open" type="button">강원특별자치도 자치단체</button>
+                            <div class="site_panel">
+                                <div class="site_type">
+                                    <div class="site_title">
+                                        <span class="site_subject">강원특별자치도 자치단체</span>
+                                    </div>
+                                    <div class="site_link">
+                                        <ul class="clearfix">
+                                            <li><a href="http://www.provin.gangwon.kr/" target="_blank" title="새창">강원특별자치도</a></li>
+                                            <li><a href="http://www.chuncheon.go.kr/" target="_blank" title="새창">춘천시</a></li>
+                                            <li><a href="http://www.wonju.go.kr/" target="_blank" title="새창">원주시</a></li>
+                                            <li><a href="http://www.gn.go.kr/" target="_blank" title="새창">강릉시</a></li>
+                                            <li><a href="http://www.dh.go.kr/" target="_blank" title="새창">동해시</a></li>
+                                            <li><a href="http://www.taebaek.go.kr/" target="_blank" title="새창">태백시</a></li>
+                                            <li><a href="http://www.sokcho.go.kr/" target="_blank" title="새창">속초시</a></li>
+                                            <li><a href="http://www.samcheok.go.kr/" target="_blank" title="새창">삼척시</a></li>
+                                            <li><a href="http://www.hsg.go.kr/" target="_blank" title="새창">횡성군</a></li>
+                                            <li><a href="https://www.yw.go.kr/" target="_blank" title="새창">영월군</a></li>
+                                            <li><a href="http://happy700.or.kr/" target="_blank" title="새창">평창군</a></li>
+                                            <li><a href="http://www.jeongseon.go.kr/" target="_blank" title="새창">정선군</a></li>
+                                            <li><a href="http://www.cwg.go.kr/" target="_blank" title="새창">철원군</a></li>
+                                            <li><a href="http://www.ihc.go.kr/" target="_blank" title="새창">화천군</a></li>
+                                            <li><a href="http://www.yanggu.go.kr/" target="_blank" title="새창">양구군</a></li>
+                                            <li><a href="http://www.inje.gangwon.kr/" target="_blank" title="새창">인제군</a></li>
+                                            <li><a href="https://www.gwgs.go.kr/" target="_blank" title="새창">고성군</a></li>
+                                            <li><a href="http://www.yangyang.go.kr/" target="_blank" title="새창">양양군</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="site_close" type="button">닫기</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_content">
+                    <div class="footer_logo"><img src="../site/mayor2026/images/common/footer_logo.png" alt="홍천군 HONGCHEON-GUN"/></div>
+                    
+                    <div class="up"><a href="#wrapper">맨위로</a></div>
+                    <div class="footer_info">
+                        <address>
+                            <span class="address">[25121] 강원특별자치도 홍천군 홍천읍 석화로 93</span>
+                            <span class="tel">대표전화 : (033)430-2114</span> <span class="fax">/ 팩스번호 : (033)430-2414</span>
+                        </address>
+                        <div class="footer_nav">
+                            <ul class="clearfix">
+                                <li class="privacy"><a href="/www/sub.do?key=669">개인정보처리방침</a></li>
+                                <li><a href="/www/sub.do?key=672">저작권정책</a></li>
+                                <li><a href="/www/sub.do?key=679">누리집개선의견</a></li>
+                                <li><a href="/www/sub.do?key=673">이메일무단수집거부</a></li>
+                                <li><a href="/www/sub.do?key=1536">민원담당전화번호</a></li>
+                                <li><a href="./contents.do?key=324">찾아오시는길</a></li>
+                            </ul>
+                        </div>
+                        <p>Copyright ⓒ 2020 <span class="name">HONGCHEON-GUN</span>. All Rights Reserved</p>
+                        <strong>본 홈페이지에 게시된 이메일 주소 자동수집을 거부하며, 이를 위반시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</strong>
+                    </div>
+                    <div class="footer_mark">
+                        <img alt="과학기술정보통신부 웹 접근성 인증 마크" src="../common/images/layout/web_mark.png" />
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- //#wrapper -->
+</body>
+
+</html>

@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* (주)한신정보기술 김진솔 - 2022.11 */
+
+.menu.eachdown .depth1{width:1240px;}
+@media (max-width:1240px) {
+    .menu.eachdown .depth1{width:1000px;}
+}
+@media (max-width:1000px) {
+    .menu.eachdown .depth1{width:auto;}
+}
+
+.sub_visual{position:relative;z-index:20;height:493px;margin-top:-41px;padding-top:241px;background:url("../images/sub/sub_visual.jpg") no-repeat center top / cover;}
+.sub_visual.m1{background-image: url("../images/sub/sub_visual01.jpg");}
+.sub_visual.m2{background-image: url("../images/sub/sub_visual05.jpg");}
+.sub_visual.m3{background-image: url("../images/sub/sub_visual06.jpg");}
+.sub_visual.m4{background-image: url("../images/sub/sub_visual03.jpg");}
+.sub_visual .sub_visual_head{color:white;font-size:44px;font-weight:600;line-height:44px;letter-spacing:-0.02em;text-align:center;}
+.path_box{position:absolute;bottom:-37px;left:calc(50vw - 620px);width:1240px;border-radius:15px;background-color:white;letter-spacing:-0.02em;box-shadow:3px 4px 18px rgba(0, 0, 0, 0.08);}
+.path_box .path{overflow:visible;}
+.path_box .path .path_wrap li:before{display:none;}
+.path_box .path .path_wrap > li{position:relative;margin-top:0;margin-right:0;padding:0;border-right:1px solid #d7dadb;}
+.path_box .path .path_wrap > li.home{border-radius:20px 0 0 20px;border-right:none;}
+.path_box .path .path_wrap > li.home a{position:relative;width:74px;height:74px;border-radius:15px;background:linear-gradient(149deg, #e8566f, #970816 67%);}
+.path_box .path .path_wrap > li.home a:before{display:block;position:absolute;top:calc(50% - 9px);left:calc(50% - 9px);width:18px;height:19px;background:url("../images/sub/pathbox_icon.png");}
+.path_box .path .path_wrap > li .list_btn{position:relative;width:320px;height:74px;padding-left:30px;color:#313033;font-size:17px;font-weight:500;text-align:left;}
+.path_box .path .path_wrap > li .list_btn:before{display:block;position:absolute;top:calc(50% - 3px);right:32px;width:10px;height:6px;background:url("../images/sub/pathbox_icon.png") no-repeat;content:"";background-position-x:-61px;}
+.path_box .path .path_wrap > li .layer{visibility:hidden;position:absolute;top:74px;width:100%;padding:29px 0;border-top:1px solid #e4e6e6;background-color:white;transform:scaleY(0);transition:300ms ease-in-out;box-shadow:3px 4px 18px rgba(0, 0, 0, 0.08);transform-origin:center top}
+.path_box .path .path_wrap > li .list_btn.active{background-color:#bd2b39;color:white;}
+.path_box .path .path_wrap > li .list_btn.active:before{background-position-y:-10px;}
+.path_box .path .path_wrap > li .list_btn.active ~ .layer{visibility:visible;transform:scaleY(1);}
+.path_box .path .path_wrap > li .layer ul li{display:block;margin-top:7px;margin-right:0;padding-right:0;}
+.path_box .path .path_wrap > li .layer ul li:first-child{margin-top:0;}
+.path_box .path .path_wrap > li .layer ul li a{width:100%;padding:0 20px;color:#717171;font-size:17px;line-height:29px;}
+.path_box .path .path_wrap > li .layer ul li a span{position:relative;transition:250ms ease-in-out;}
+.path_box .path .path_wrap > li .layer ul li a span:before{display:block;visibility:hidden;position:absolute;top:calc(50% - 5px);left:6px;width:0px;height:10px;background:url("../images/sub/pathbox_depth_icon.png") no-repeat;transition:250ms ease-in-out;content:"";opacity:0;}
+.path_box .path .path_wrap > li .layer ul li a:hover{color:#313033;font-weight:500;}
+.path_box .path .path_wrap > li .layer ul li a:hover span{padding-left:19px;}
+.path_box .path .path_wrap > li .layer ul li a:hover span:before{visibility:visible;width:7px;opacity:1;}
+.path_box .addon{position:absolute;top:26px;right:37px;}
+.path_box .addon > div{display:inline-block;}
+.path_box .addon .sns_share{display:none;}
+.path_box .addon .sns_share .share_open{position:relative;width:20px;height:21px;}
+.path_box .addon .sns_share .share_open:before{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url("../images/sub/pathbox_icon.png") no-repeat -20px 0;content:"";opacity:0.5;}
+.path_box .addon .sns_share .sns_wrap{display:none;position:absolute;}
+.path_box .addon .print{margin-left:32px;}
+.path_box .addon .print .print_btn{width:21px;height:21px;background:url("../images/sub/pathbox_icon.png") no-repeat -40px 0;opacity:0.5;}
+.path_box .addon .print .print_btn:hover{opacity:0.7;}
+@media (min-width:1001px) {
+    .path_box .addon .sns_share .share_open:hover:before{opacity:0.7;}
+
+    #contents{margin-top:87px;}
+}
+@media (max-width:1240px) {
+    .path_box{left:calc(50vw - 500px);width:1000px;}
+    .path_box .path .path_wrap > li .list_btn{width:250px;padding-left:20px;}
+    .path_box .path .path_wrap > li .list_btn:before{right:20px;}
+    .path_box .path .path_wrap > li .layer ul li a{padding:0 15px;}
+}
+@media (max-width:1000px) {
+    .sub_visual{height:350px;margin-top:0;padding-top:178px;}
+    .sub_visual .sub_visual_head{font-size:38px;}
+    .path_box{bottom:50px;left:0;width:100%;background-color:transparent;}
+    .path_box .path_wrap{display:none;}
+    .path_box .addon{top:0;right:calc(3% + 20px);}
+    .path_box .addon .sns_share .share_open:before{background-position-y:-21px;opacity:1;}
+    .path_box .addon .print{display:none;}
+}
+@media (max-width:640px) {
+    .sub_visual{height:300px;padding-top:148px;}
+    .sub_visual .sub_visual_head{font-size:30px;}
+}
+
+#colgroup{width:100% !important;}
+
+@media only screen and (max-width: 765px){
+	#contents.cts2532 .p-table.simple tbody tr{display:table; width:100%;}
+}
+
+@media print {
+	.no_print{display:none;}
+}

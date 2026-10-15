@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+
+/* (주)한신정보기술 장희용 - 2023.1 */
+
+/* 공약과 실천 > 군정기본방향 */
+.cts2552_wrap .direction{padding-top:1px;}
+.cts2552_wrap .direction .title{padding:60px 0 43px;text-align:center;color:#000;font-size:25px;font-weight:500;line-height:33px;letter-spacing:-0.02em;}
+.cts2552_wrap .direction .step1 .title{padding-top:45px;}
+.cts2552_wrap .direction .dir_box{position:relative;border:2px solid #ededed;border-radius:55px;background-color:#fff;}
+.cts2552_wrap .direction .dir_box .box_wrap{padding:36px 15px 33px;text-align:center;}
+.cts2552_wrap .direction .dir_box:before{display:block;content:'';position:absolute;top:-24px;left:calc(50% - 32px);width:75px;height:52px;background-size:contain;}
+.cts2552_wrap .direction .step1 .dir_box:before{background-image:url("../images/contents/cts2552_quotes1.png");}
+.cts2552_wrap .direction .step2 .dir_box:before{background-image:url("../images/contents/cts2552_quotes2.png");}
+.cts2552_wrap .direction .step1 .dir_box .box_wrap:before{display:block;content:'';position:absolute;top:-80px;left:-150px;z-index:-1;width:378px;height:377px;background-image:url("../images/contents/cts2552_bg1.png");background-size:contain;}
+.cts2552_wrap .direction .step1 .dir_box .box_wrap:after{display:block;content:'';position:absolute;top:-140px;right:-170px;z-index:-1;width:378px;height:377px;background-image:url("../images/contents/cts2552_bg2.png");background-size:contain;}
+.cts2552_wrap .direction .dir_box .text{display:inline-block;font-size:35px;font-weight:700;line-height:40px;letter-spacing:-0.02em;}
+.cts2552_wrap .direction .step1 .dir_box .text{background:-webkit-linear-gradient(20deg,#d1694c,#c43142,#5961ad);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.cts2552_wrap .direction .step2 .dir_box .text{background:-webkit-linear-gradient(20deg,#6e5397,#3b73c3,#24884c);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+@media screen and (max-width:800px){
+    .cts2552_wrap .direction .dir_box{border-radius:50px;}
+    .cts2552_wrap .direction .dir_box .box_wrap{padding:25px 2%;}
+    .cts2552_wrap .direction .dir_box .text{font-size:28px;line-height:1.4em;}
+    .cts2552_wrap .direction .step1 .dir_box .box_wrap:before{transform:scale(0.8);}
+    .cts2552_wrap .direction .step1 .dir_box .box_wrap:after{transform:scale(0.8);}
+}
+@media screen and (max-width:640px){
+    .cts2552_wrap .direction .title{padding:40px 0 25px;font-size:21px;line-height:1.4em;}
+    .cts2552_wrap .direction .dir_box .box_wrap{padding:18px 2%;}
+    .cts2552_wrap .direction .dir_box .text{font-size:20px;}
+    .cts2552_wrap .direction .dir_box:before{transform:scale(0.7);}
+    .cts2552_wrap .direction .step1 .dir_box .box_wrap:before{top:-110px;transform:scale(0.6);}
+    .cts2552_wrap .direction .step1 .dir_box .box_wrap:after{top:-160px;transform:scale(0.6);}
+}
+
+/* 공약과 실천 > 공약총괄 */
+.cts2554_wrap .status{padding-top:60px;}
+.cts2554_wrap .status .titlebox{position:relative;margin:0 45px;border-radius:22px;background-color:#fff;box-shadow:0 18px 18px rgba(232,180,184,0.4);}
+.cts2554_wrap .status .titlebox .title_item{float:left;position:relative;padding:0 2% 35px;width:50%;box-sizing:border-box;text-align:center;}
+.cts2554_wrap .status .titlebox .title_item:nth-child(2n):before{display:block;content:'';position:absolute;bottom:40px;left:-1px;width:2px;height:70px;background-color:#666;}
+.cts2554_wrap .status .titlebox .title_item .sub{position:relative;margin:-16px 0 7px;color:#666;font-size:22px;font-weight:500;line-height:1.4em;}
+.cts2554_wrap .status .titlebox .title_item .sub:before{display:block;content:'';position:absolute;top:-32px;left:calc(50% - 18px);width:36px;height:22px;background:url("../images/contents/cts2554_quotes.png") center/contain no-repeat;}
+.cts2554_wrap .status .titlebox .title_item .main{color:#000;font-size:35px;font-weight:700;line-height:1.4em;word-break:keep-all;}
+.cts2554_wrap .status .titlebox .title_item:first-child .main{background:-webkit-linear-gradient(300deg,#d08e5a 5%,#be2f44,#3379c4 95%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.cts2554_wrap .status .conbox{margin-top:-50px;padding:123px 65px 50px;box-sizing:border-box;border-radius:22px;background:linear-gradient(150deg,#edd4c3,#e8b3b9,#e9d2b4);}
+.cts2554_wrap .status .conbox .con_item{float:left;position:relative;width:calc((100% - 144px) / 4);height:206px;margin-right:48px;padding:131px 1.3% 20px;box-sizing:border-box;border-radius:16px;background-color:#fff;text-align:center;color:#666;font-size:18px;font-weight:500;line-height:27px;letter-spacing:-0.03em;word-break:keep-all;box-shadow:10px 11px 35px rgba(0,0,0,0.11);}
+.cts2554_wrap .status .conbox .con_item:nth-child(4n){margin-right:0;}
+.cts2554_wrap .status .conbox .con_item:nth-child(n+5){margin-top:72px;}
+.cts2554_wrap .status .conbox .con_item:before{display:block;content:'';position:absolute;top:65px;left:50%;width:63px;height:51px;background:url("../images/contents/cts2554_icon01.png") center no-repeat;transform:translateX(-50%);}
+.cts2554_wrap .status .conbox .con_item.item1:before{background-image:url("../images/contents/cts2554_icon09.png");}
+.cts2554_wrap .status .conbox .con_item.item2:before{background-image:url("../images/contents/cts2554_icon03.png");}
+.cts2554_wrap .status .conbox .con_item.item3:before{background-image:url("../images/contents/cts2554_icon04.png");}
+.cts2554_wrap .status .conbox .con_item.item4:before{background-image:url("../images/contents/cts2554_icon02.png");}
+.cts2554_wrap .status .conbox .con_item.item5:before{background-image:url("https://www.hongcheon.go.kr/site/mayor2022/images/contents/cts2554_icon05.png");}
+.cts2554_wrap .status .conbox .con_item.item6:before{background-image:url("https://www.hongcheon.go.kr/site/mayor2022/images/contents/cts2554_icon10.png");}
+.cts2554_wrap .status .conbox .con_item.item7:before{background-image:url("../images/contents/cts2554_icon01.png");}
+.cts2554_wrap .status .conbox .con_item.item8:before{background-image:url("../images/contents/cts2554_icon08.png");}
+.cts2554_wrap .status .conbox .con_item i{display:block;position:absolute;top:-40px;left:calc(50% - 40px);width:80px;height:80px;border-radius:50%;background:linear-gradient(130deg,#ff9920,#c02f42);}
+.cts2554_wrap .status .conbox .con_item i:before{display:block;content:'';position:absolute;top:5px;left:5px;bottom:5px;right:5px;box-sizing:border-box;border-radius:50%;background-color:#fff;}
+.cts2554_wrap .status .conbox .con_item i em{display:block;position:relative;margin-top:15px;color:#cd3e4b;font-size:35px;font-weight:700;line-height:1.4em;letter-spacing:-0.05em;}
+.cts2554_wrap .status .conbox .con_item>em{display:inline-block;color:#cd3e4b;}
+.cts2554_wrap .table th,
+.cts2554_wrap .table td{padding:15px 14px;}
+.cts2554_wrap .box_img.border{overflow:hidden;padding:35px 0 25px;border:1px solid #ddd;border-radius:13px;}
+.cts2554_wrap .railway{position:relative;}
+.cts2554_wrap .railway:before{display:block;content:'';position:absolute;bottom:0;right:5.2%;z-index:1;width:531px;height:242px;background:url("../images/contents/cts2554_railway.png") no-repeat center bottom/contain;}
+.cts2554_wrap .railway .box_wrap{overflow:hidden;position:relative;padding:49px 600px 51px 6.5%;box-sizing:border-box;border-radius:21px;background-color:#edf6fb;}
+.cts2554_wrap .railway .box_wrap:before{display:block;content:'';position:absolute;top:-2px;left:-16px;width:134px;height:81px;background:url("../images/contents/cts2554_railway2.png") no-repeat center/contain;}
+.cts2554_wrap .railway .title{display:inline-block;margin-bottom:4px;padding-right:5px;font-size:34px;font-weight:700;line-height:1.4em;letter-spacing:-0.03em;font-style:italic;background:linear-gradient(130deg,#0072bc,#ed1c24);-webkit-background-clip:text;-webkit-text-fill-color:transparent;-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.cts2554_wrap .railway .text{color:#666;font-style:italic;font-size:24px;font-weight:400;line-height:1.4em;letter-spacing:-0.03em;word-break:keep-all;}
+@media screen and (max-width:1000px){
+    .cts2554_wrap .status .titlebox{margin:0 4%;}
+    .cts2554_wrap .status .titlebox .title_item{padding-bottom:15px;}
+    .cts2554_wrap .status .titlebox .title_item:nth-child(2n):before{bottom:30px;height:55px;}
+    .cts2554_wrap .status .titlebox .title_item .main{font-size:25px;}
+    .cts2554_wrap .status .titlebox .title_item .sub{margin-bottom:3px;font-size:18px;}
+    .cts2554_wrap .status .conbox{padding:105px 4% 40px;}
+    .cts2554_wrap .status .conbox .con_item{width:calc((100% - 60px) / 4);margin-right:20px;font-size:16px;line-height:1.5em;}
+    .cts2554_wrap .status .conbox .con_item:nth-child(n+5){margin-top:56px;}
+    .cts2554_wrap .railway:before{right:3%;width:0;padding:0 25%;}
+    .cts2554_wrap .railway .box_wrap{padding:40px 55% 40px 4%;}
+}
+@media screen and (max-width:640px){
+    .cts2554_wrap .status .titlebox .title_item .main{font-size:21px;line-height:1.3em;}
+    .cts2554_wrap .status .conbox{margin-top:-40px}
+    .cts2554_wrap .status .conbox .con_item{width:calc((100% - 20px) / 2);margin-right:20px;}
+    .cts2554_wrap .status .conbox .con_item:nth-child(2n){margin-right:0;}
+    .cts2554_wrap .status .conbox .con_item:nth-child(n+3){margin-top:56px;}
+    .cts2554_wrap .railway:before{right:10%;padding:0 32%;}
+    .cts2554_wrap .railway .box_wrap{padding:40px 5% 35%;}
+}
+
+/* 공약과 실천 > 공약추진현황 */
+.cts2555_wrap .progress_title{position:relative;margin-bottom:25px;padding-left:15px;color:#000;font-size:24px;font-weight:500;line-height:1.4em;letter-spacing:-0.035em;}
+.cts2555_wrap .progress_title:before{display:block;content:'';position:absolute;top:50%;left:0;width:7px;height:7px;border-radius:50%;background-color:#000;transform:translateY(-50%);}
+.cts2555_wrap .progress_title em{color:#d9001f;}
+.cts2555_wrap .progress{position:relative;margin-bottom:180px;padding:29px 48px;border-radius:55px;background-color:#fff;box-shadow:17px 21px 50px rgba(0,0,0,0.12);}
+.cts2555_wrap .progress:before{display:block;content:'';position:absolute;z-index:-1;bottom:-135px;left:calc(50% - 1000px);width:2000px;height:390px;background:linear-gradient(145deg,#d19d60,#c02f42,#317ac4,#248a10);opacity:37%;}
+.cts2555_wrap .progress .unit{margin-bottom:22px;text-align:right;font-size:18px;font-weight:400;line-height:1.4em;letter-spacing:-0.035em;}
+.cts2555_wrap .progress .chart_item{float:left;position:relative;width:25%;}
+.cts2555_wrap .progress .chart_item:before{display:block;content:'';position:absolute;top:10px;right:0;bottom:46px;width:2px;background:url("../images/contents/cts2555_dotted.png") repeat-y;}
+.cts2555_wrap .progress .chart_item:last-child:before{display:none;}
+.cts2555_wrap .progress .chart_item .canvas_wrap{position:relative;top:0;left:-65px;width:calc(100% + 130px);}
+.cts2555_wrap .progress .chart_item .canvas_wrap:before{display:block;content:'';position:absolute;top:50%;left:50%;width:200px;height:200px;border-radius:50%;background-color:#f1f5f8;transform:translate(-50%,-50%);}
+.cts2555_wrap .progress .chart_item .canvas_wrap canvas{position:relative;}
+.cts2555_wrap .progress .chart_item .canvas_wrap .value{position:absolute;top:50%;left:50%;width:100px;height:100px;border-radius:50%;background-color:#fff;text-align:center;color:#000;font-size:20px;font-weight:400;line-height:28px;letter-spacing:0.035em;transform:translate(-50%,-50%);}
+.cts2555_wrap .progress .chart_item .canvas_wrap .value .main{margin-top:24px;font-weight:600;}
+.cts2555_wrap .progress .chart_item .canvas_wrap .value .main em{font-size:32px;font-weight:800;}
+.cts2555_wrap .progress .chart .value{position:absolute;top:50%;left:50%;width:100px;height:100px;border-radius:50%;background-color:#fff;text-align:center;color:#000;font-size:22px;font-weight:400;line-height:28px;letter-spacing:0.035em;transform:translate(-50%,-50%);}
+.cts2555_wrap .progress .chart .value .main{margin-top:24px;font-weight:600;}
+.cts2555_wrap .progress .chart .value .main em{font-size:32px;font-weight:800;}
+.cts2555_wrap .progress .chart_item .chart_title{margin-top:26px;text-align:center;color:#000;font-size:20px;font-weight:500;line-height:1.4em;letter-spacing:-0.035em;}
+
+@media screen and (max-width:1240px){
+    .cts2555_wrap .progress .chart_item .canvas_wrap:before{width:175px;height:175px;}
+    .cts2555_wrap .progress .chart_item .canvas_wrap .value{transform:translate(-50%,-50%) scale(0.9);}
+}
+@media screen and (max-width:1000px){
+    .cts2555_wrap .progress{margin-bottom:120px;}
+    .cts2555_wrap .progress:before{bottom:-80px;}
+    .cts2555_wrap .progress .chart_item{width:50%;}
+    .cts2555_wrap .progress .chart_item:nth-child(2n):before{display:none;}
+    .cts2555_wrap .progress .chart_item:nth-child(n+3){margin-top:50px;}
+    .cts2555_wrap .progress .chart_item .canvas_wrap{left:0;width:100%;}
+    .cts2555_wrap .progress .chart_item .canvas_wrap:before{width:20vw;height:20vw}
+    .cts2555_wrap .progress .chart_item .chart_title{margin-top:15px;}
+}
+@media screen and (max-width:800px){
+    .cts2555_wrap .progress{padding:29px 5%;}
+    .cts2555_wrap .progress .chart_item .canvas_wrap .value{transform:translate(-50%,-50%) scale(0.8);}
+}
+@media screen and (max-width:640px){
+    .cts2555_wrap .progress_title{margin-bottom:15px;font-size:22px;}
+    .cts2555_wrap .progress{margin-bottom:100px;padding:20px 5%;border-radius:40px;}
+    .cts2555_wrap .progress:before{bottom:-60px;height:320px;}
+    .cts2555_wrap .progress .unit{margin-bottom:10px;font-size:15px;}
+    .cts2555_wrap .progress .chart_item:nth-child(n+3){margin-top:30px;}
+    .cts2555_wrap .progress .chart_item .canvas_wrap .value{transform:translate(-50%,-50%) scale(0.6);}
+    .cts2555_wrap .progress .chart_item .chart_title{font-size:17px;}
+}
+
+/* 공약과 실천 > 공약추진현황 - step박스 추가 250204*/
+.cts2555_wrap .step_wrap{overflow:hidden;font-size:0; line-height:0;}
+.cts2555_wrap .step_wrap .step_list{text-align:center;}
+.cts2555_wrap .step_wrap .step_item{display:inline-block; position:relative; width:calc((100% - 150px) / 4); margin-right:40px; margin-bottom:25px; text-align:center; vertical-align:top}
+.cts2555_wrap .step_wrap .step_item:nth-child(4n){margin-right:30px}
+.cts2555_wrap .step_wrap .step_item:before{display:block; position:absolute; top:calc(50% - 5px); right:-25px; width:10px; height:15px; background:url("../images/common/arrow_icon.png") no-repeat;}
+.cts2555_wrap .step_wrap .step_item:last-child:before{display:none}
+.cts2555_wrap .step_wrap .step_inner{display:block; overflow:hidden; position:relative; border:1px solid #e2d7d6; border-radius:7px; box-sizing:border-box}
+.cts2555_wrap .step_wrap .step_title{display:block; position:relative; width:100%; padding:23px 25px 17px; color:#8f4944; font-weight:500; font-size:15px; line-height:22px; letter-spacing:-0.01em; vertical-align:middle}
+.cts2555_wrap .step_wrap .step_title:before{display:block; position:absolute; top:0; left:0; z-index:-5; width:100%; height:100%; background-color:#faf0ef;}
+.cts2555_wrap .step_wrap .step_title span{display:inline-block; word-break:keep-all; vertical-align:middle}
+.cts2555_wrap .step_wrap .step_text{display:block; width:100%; padding:20px 25px; color:#252525;font-size:15px; line-height:20px; letter-spacing:-0.025em; word-break:keep-all}
+.cts2555_wrap .step_wrap .step_depart{display:block; position:relative; width:100%; padding:13px 25px; color:#714b49; font-size:15px; line-height:22px; letter-spacing:-0.01em; vertical-align:middle}
+.cts2555_wrap .step_wrap .step_depart:before{display:block; position:absolute; top:0; left:0; z-index:-5; width:100%; height:100%; background-color:#fefafa;}
+
+@media screen and (max-width:1240px){
+    .cts2555_wrap .step_wrap .step_item{width: calc((100% - 150px) / 2);}
+    .cts2555_wrap .step_wrap .step_item:nth-child(2n){margin-right:0;}
+	.cts2555_wrap .step_wrap .step_item:nth-child(2n):before{display:none;}
+}
+@media screen and (max-width:800px){
+    .cts2555_wrap .step_wrap .step_item{margin: 0 0 40px;width: 100%;}
+	.cts2555_wrap .step_wrap .step_item:before{top: unset;bottom: -22px;right: 50%;transform: rotate(90deg);}
+	.cts2555_wrap .step_wrap .step_item:nth-child(2):before{display: block;}
+}
+
+
+/* 공약과 실천 > 사업별 이행현황 */
+.tabmenu{position:relative;padding:56px 0 50px;}
+.tabmenu:before{display:block;content:'';position:absolute;top:0;left:calc(50% - 1000px);width:2000px;height:100%;background:linear-gradient(106deg,#f8eec9,#edcdab,#f6c8b0);}
+.tabmenu .tab_item{float:left;position:relative;width:calc((100% - 140px) / 8);margin-right:20px;}
+.tabmenu .tab_item:last-child{margin-right:0;}
+.tabmenu .tab_item .tab_anchor{display:block;height:160px;padding:70px 3px 10px;box-sizing:border-box;border-radius:22px;background-color:#fff;text-align:center;color:#757474;font-size:16px;font-weight:300;line-height:20px;letter-spacing:-0.03em;text-decoration:none;word-break:keep-all;box-shadow:10px 12px 18px rgba(0,0,0,0.06);}
+.tabmenu .tab_item .tab_anchor:before{display:block;content:'';position:absolute;top:20px;left:50%;width:40px;height:40px;background:url("../images/contents/tab_icons01.png") 0 0 no-repeat;transform:translateX(-50%);}
+/* .tabmenu .tab_item.item1 .tab_anchor:before{top:20px;width:40px;height:40px;background-position-y:0;}
+.tabmenu .tab_item.item2 .tab_anchor:before{top:23px;width:45px;height:28px;background-position-y:-60px;}
+.tabmenu .tab_item.item3 .tab_anchor:before{top:23px;width:44px;height:37px;background-position-y:-120px;}
+.tabmenu .tab_item.item4 .tab_anchor:before{top:23px;width:52px;height:37px;background-position-y:-180px;}
+.tabmenu .tab_item.item5 .tab_anchor:before{top:24px;width:54px;height:35px;background-position-y:-240px;}
+.tabmenu .tab_item.item6 .tab_anchor:before{top:14px;width:39px;height:42px;background-position-y:-300px;}
+.tabmenu .tab_item.item7 .tab_anchor:before{top:21px;width:46px;height:38px;background-position-y:-360px;}
+.tabmenu .tab_item.item8 .tab_anchor:before{top:17px;width:55px;height:44px;background-position-y:-420px;} */
+.tabmenu .tab_item.item1 .tab_anchor:before{top:20px;width: 52px;height: 40px;background-position-y: -540px;}
+.tabmenu .tab_item.item2 .tab_anchor:before{top:23px;width:44px;height:40px;background-position-y:-120px;}
+.tabmenu .tab_item.item3 .tab_anchor:before{top:23px;width:44px;height:37px;background-position-y:-180px;}
+.tabmenu .tab_item.item4 .tab_anchor:before{top:23px;width:45px;height:37px;background-position-y:-60px;}
+.tabmenu .tab_item.item5 .tab_anchor:before{top:24px;width:54px;height:35px;background-position-y:-240px;}
+.tabmenu .tab_item.item6 .tab_anchor:before{top:14px;width:46px;height:44px;background-position-y:-483px;}
+.tabmenu .tab_item.item7 .tab_anchor:before{top:21px;width:40px;height:40px;background-position-y:0;}
+.tabmenu .tab_item.item8 .tab_anchor:before{top:17px;width:55px;height:44px;background-position-y:-420px;}
+
+.tabmenu .tab_item .tab_anchor em{display:block;margin-top:6px;color:#666;font-size:20px;font-weight:600;line-height:25px;letter-spacing:-0.03em;}
+.tabmenu .tab_item.active .tab_anchor{outline:3px solid #eb6e50;box-shadow:8px 10px 38px rgba(214,73,38,0.4);}
+.tabmenu .tab_item.active .tab_anchor em{color:#d64926}
+
+.tabmenu_wrap .table th{padding:15px 6px;word-break:keep-all;}
+.tabmenu_wrap .table td{padding:15px 6px;word-break:keep-all;font-size:15px;}
+
+@media screen and (max-width:1240px){
+    .tabmenu .tab_item{width:calc((100% - 70px) / 8);margin-right:10px;}
+}
+@media screen and (max-width:1000px){
+    .tabmenu .tab_item{width:calc((100% - 60px) / 4);margin-right:20px;}
+    .tabmenu .tab_item:nth-child(4n){margin-right:0;}
+    .tabmenu .tab_item:nth-child(n+5){margin-top:20px;}
+    .tabmenu .tab_item .tab_anchor{padding:70px 5% 10px;}
+}
+@media screen and (max-width:640px){
+    .tabmenu{padding:30px 0;}
+    .tabmenu .tab_item{width:calc((100% - 10px) / 2);margin-right:10px;}
+    .tabmenu .tab_item:nth-child(2n){margin-right:0;}
+    .tabmenu .tab_item:nth-child(n+3){margin-top:10px;}
+
+    /*.tabmenu .tab_item{width:calc((100% - 30px) / 4);margin-right:10px;}*/
+    /*.tabmenu .tab_item:nth-child(n+5){margin-top:10px;}*/
+    /*.tabmenu .tab_item .tab_anchor{border-radius:16px;font-size:15px;line-height:1.4em;}*/
+    /*.tabmenu .tab_item .tab_anchor em{font-size:18px;line-height:1.3em;}*/
+}

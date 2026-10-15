@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* Layout */
+@import url('../../../common/css/default.css');
+@import url('../../../common/css/neoKeyboard_style.css');
+@import url('../../../common/css/layout.css');
+@import url('../../../site/department/css/common.css');
+@import url('font.css');
+@import url('common2.css');
+@import url('main_layout.css?ver=250514');
