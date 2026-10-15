@@ -3,7 +3,7 @@
 .wrap{width:1500px;}
 .menu.eachdown .depth1{width:1500px;}
 @media (min-width:1501px) {
-    .lnb .menu .depth1_text{padding:38px 40px 41px;}
+    .lnb .menu .depth1_text{/* padding:38px 40px 41px; */}
 }
 @media (max-width:1500px) {
     .menu.eachdown .depth1{width:1240px;}

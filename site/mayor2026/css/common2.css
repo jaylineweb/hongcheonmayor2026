@@ -51,7 +51,7 @@ html:not(.lnb_open) #sub .sitemap{background-position-x:0%;}
 }
 @media (min-width:1241px) {
     .lnb .menu.pulldown .depth1_list .depth1_item .depth1_text,
-    .lnb .menu .depth1_text{padding:38px 20px 41px;}
+    .lnb .menu .depth1_text{/* padding:38px 20px 41px; */}
     
 }
 @media (max-width:1200px){
